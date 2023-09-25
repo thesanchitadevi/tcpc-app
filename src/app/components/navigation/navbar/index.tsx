@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Logo from "./logo";
+import BasicMenu from "../../menu";
+import MenuItem from "../../menu";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
@@ -26,6 +28,9 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
+            {/* <div className="hidden md:flex gap-x-6  w-full">
+              <MenuItem />
+            </div> */}
             <ul className="hidden md:flex gap-x-6 text-slate-100 ">
               <li>
                 <Link href="/about">
@@ -33,9 +38,9 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/members">
-                  <p>Members</p>
-                </Link>
+                <button>
+                  <MenuItem />
+                </button>
               </li>
               <li>
                 <Link href="/contacts">
