@@ -1,6 +1,6 @@
-import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import type { MenuProps } from "antd";
 import { Dropdown, Space } from "antd";
+import Iconify from "../iconify";
 
 const items: MenuProps["items"] = [
   {
@@ -18,11 +18,14 @@ const items: MenuProps["items"] = [
 ];
 
 const MenuItem: React.FC = () => (
-  <Dropdown menu={{ items }}>
+  <Dropdown
+    menu={{ items, selectable: true }}
+    // trigger={["click"]}
+  >
     <a onClick={(e) => e.preventDefault()}>
       <Space>
         Members
-        <DownOutlined />
+        <Iconify icon="iconamoon:arrow-down-2" />
       </Space>
     </a>
   </Dropdown>

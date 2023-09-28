@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Logo from "./logo";
-import BasicMenu from "../../menu";
 import MenuItem from "../../menu";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
@@ -23,14 +22,12 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 viewBox="0 0 24 24"
               >
                 <path
-                  fill="#000"
+                  fill="#fff"
                   d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"
                 />
               </svg>
             </button>
-            {/* <div className="hidden md:flex gap-x-6  w-full">
-              <MenuItem />
-            </div> */}
+
             <ul className="hidden md:flex gap-x-6 text-slate-100 ">
               <li>
                 <Link href="/about">

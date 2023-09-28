@@ -31,7 +31,7 @@ const Sidebar = ({
           </svg>
         </button>
 
-        <ul className="sidebar-nav text-center leading-relaxed text-xl">
+        <ul className="sidebar-nav text-center leading-relaxed text-xl text-slate-700">
           <li>
             <Link href="/about" onClick={toggle}>
               <p>About Us</p>
