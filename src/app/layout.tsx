@@ -30,6 +30,7 @@ export default function RootLayout({
         className={`${poppins.className} bg-background h-full text-white overflow-y-hidden `}
       >
         <Navigation />
+
         <motion.main
           initial="hidden"
           animate="enter"
