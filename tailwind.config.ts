@@ -12,6 +12,11 @@ const config: Config = {
         primary: "#FFDE77",
         secondary: "#22B066",
         background: "#0d141c",
+        text: {
+          DEFAULT: "#cfd3d5",
+          light: "#869095",
+          dark: "#050d11",
+        },
       },
     },
     screens: {

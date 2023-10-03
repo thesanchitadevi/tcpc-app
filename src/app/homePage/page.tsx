@@ -1,4 +1,5 @@
 import React from "react";
+import HomeAbout from "./about";
 
 const HomePage = () => {
   return (
@@ -16,9 +17,9 @@ const HomePage = () => {
             discussions.
           </p>
         </div>
-        {/* <div>
+        <div>
           <HomeAbout />
-        </div> */}
+        </div>
       </section>
     </>
   );

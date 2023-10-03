@@ -5,6 +5,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import Navigation from "./components/navigation";
 import { motion } from "framer-motion";
+import Footer from "./components/footer";
 
 const variants = {
   hidden: { opacity: 0, x: -200, y: 0 },
@@ -26,11 +27,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.className} bg-background h-full text-white overflow-y-hidden `}
-      >
+      <body className={`${poppins.className} bg-background h-full  `}>
         <Navigation />
-
+        {/* {children} */}
         <motion.main
           initial="hidden"
           animate="enter"
@@ -38,13 +37,14 @@ export default function RootLayout({
           variants={variants}
           transition={{ type: "linear" }}
           className="
-                    flex flex-col items-start w-full pt-10
-                    px-8 sm:px-16 md:px-36 lg:px-52 xl:px-80 2xl:px-96
+                     w-full pt-10
+                    px-8 
                      h-full
                 "
         >
           {children}
         </motion.main>
+        <Footer />
       </body>
     </html>
   );
