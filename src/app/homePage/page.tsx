@@ -1,7 +1,8 @@
 import React from "react";
 import HomeAbout from "./about";
+import WhyJoin from "./why";
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
     <>
       <section className=" text-gray-100">
@@ -19,6 +20,7 @@ const HomePage = () => {
         </div>
         <div>
           <HomeAbout />
+          <WhyJoin />
         </div>
       </section>
     </>

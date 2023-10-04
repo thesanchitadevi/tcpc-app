@@ -1,7 +1,7 @@
 import React from "react";
 
-const Formar = () => {
-  return <div>Formar</div>;
+const Former: React.FC = () => {
+  return <div>Former</div>;
 };
 
-export default Formar;
+export default Former;

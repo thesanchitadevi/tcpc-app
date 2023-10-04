@@ -1,6 +1,6 @@
 import React from "react";
 
-const Executive = () => {
+const Executive: React.FC = () => {
   return <div>Executive</div>;
 };
 

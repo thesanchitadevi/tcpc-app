@@ -27,7 +27,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className} bg-background h-full  `}>
+      <body className={`${poppins.className} bg-background h-full `}>
         <Navigation />
         {/* {children} */}
         <motion.main
@@ -36,11 +36,7 @@ export default function RootLayout({
           exit="exit"
           variants={variants}
           transition={{ type: "linear" }}
-          className="
-                     w-full pt-10
-                    px-8 
-                     h-full
-                "
+          className="w-full pt-10 px-8 h-full  text-slate-300"
         >
           {children}
         </motion.main>
