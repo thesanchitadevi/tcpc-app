@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "/icon.svg",
+    "title": "TREE AND SHRUB PRUNING",
+    "about": "Esse laborum reprehenderit excepteur quis nulla ullamco eiusmod sint ex. Irure laboris labore labore tempor ipsum excepteur."
+  },
+  {
+    "id": 2,
+    "icon": "/icon1.svg",
+    "title": "TREE AND SHRUB PRUNING",
+    "about": "Esse laborum reprehenderit excepteur quis nulla ullamco eiusmod sint ex. Irure laboris labore labore tempor ipsum excepteur."
+  },
+  {
+    "id": 3,
+    "icon": "/icon2.svg",
+    "title": "TREE AND SHRUB PRUNING",
+    "about": "Esse laborum reprehenderit excepteur quis nulla ullamco eiusmod sint ex. Irure laboris labore labore tempor ipsum excepteur."
+  }
+]
