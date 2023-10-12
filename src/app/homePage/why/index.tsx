@@ -24,15 +24,11 @@ const WhyJoin: React.FC = () => {
 
   return (
     <>
-      <section className="px-6 py-10 md:py-20 md:px-10  ">
-        <div className="relative mx-auto max-w-5xl text-center">
-          <span className="my-3 flex items-center justify-center font-medium uppercase tracking-wider">
-            Why choose us
-          </span>
-          <h2 className="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent md:text-3xl text-4xl">
-            Build a Website That Your Customers Love
-          </h2>
-        </div>
+      <section className="px-6 py-10 md:py-15 md:px-10  ">
+        <h2 className="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent md:text-3xl text-4xl text-center py-5">
+          Why Join Tejgaon College Programming Club ?
+        </h2>
+
         <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
           {products?.map?.(
             (s: { id: number; icon: string; title: string; about: string }) => (

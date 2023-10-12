@@ -1,6 +1,7 @@
 import React from "react";
 import HomeAbout from "./about";
 import WhyJoin from "./why";
+import Stats from "./stats";
 
 const HomePage: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage: React.FC = () => {
         <div>
           <HomeAbout />
           <WhyJoin />
+          <Stats />
         </div>
       </section>
     </>

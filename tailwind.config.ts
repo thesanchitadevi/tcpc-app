@@ -14,7 +14,7 @@ const config: Config = {
         background: "#0d141c",
         text: {
           DEFAULT: "#cfd3d5",
-          light: "#869095",
+          light: "rgb(75 85 99)",
           dark: "#050d11",
         },
       },
