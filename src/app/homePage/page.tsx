@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import HomeAbout from "./about";
 import WhyJoin from "./why";
 import Stats from "./stats";
+import Touch from "./touch";
 
 const HomePage: React.FC = () => {
   return (
@@ -23,6 +25,7 @@ const HomePage: React.FC = () => {
           <HomeAbout />
           <WhyJoin />
           <Stats />
+          <Touch />
         </div>
       </section>
     </>
