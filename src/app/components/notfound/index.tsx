@@ -1,4 +1,5 @@
 // import Image from "next/image";
+import Image from "next/image";
 import React from "react";
 
 const NotFound: React.FC = () => {
@@ -7,7 +8,7 @@ const NotFound: React.FC = () => {
       <section>
         <div className="flex items-center justify-center h-screen">
           <div className="flex flex-col items-center justify-center max-w-2xl">
-            <img
+            <Image
               src="https://www.svgrepo.com/show/426192/cogs-settings.svg"
               alt="tailwindcss maintenance"
               className="h-20 w-20"

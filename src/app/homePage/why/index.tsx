@@ -24,7 +24,7 @@ const WhyJoin: React.FC = () => {
 
   return (
     <>
-      <section className="px-6 py-10 md:py-15 md:px-10  ">
+      <section className="px-6 py-10 md:py-20 md:px-10  ">
         <h2 className="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent md:text-3xl text-4xl text-center py-5">
           Why Join Tejgaon College Programming Club ?
         </h2>
