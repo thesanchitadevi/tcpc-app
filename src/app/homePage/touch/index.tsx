@@ -20,7 +20,9 @@ const Touch: React.FC = () => {
             </div>
 
             <div className="max-w-full  rounded-lg overflow-hidden text-end pt-8">
-              <h2 className="text-2xl font-semibold ">Get In Touch</h2>
+              <h2 className="text-2xl font-semibold text-primary">
+                Get In Touch
+              </h2>
 
               <div className="py-6 ">
                 <h3 className="text-lg font-medium ">Our Address</h3>

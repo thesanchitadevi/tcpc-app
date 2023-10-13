@@ -15,7 +15,7 @@ const HomeAbout: React.FC = () => {
           />
         </div>
         <div className="flex flex-col w-full md:w-2/4  md:py-12 p-8 md:text-end gap-4">
-          <p>About</p>
+          <p className="text-primary">About</p>
           <h2 className="text-2xl font-semibold leadi">
             TEJGAON COLLEGE <br />
             PROGRAMMING CLUB
