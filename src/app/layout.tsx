@@ -1,24 +1,23 @@
-"use client";
 import React from "react";
 import "./globals.css";
-// import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Navigation from "./components/navigation";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Footer from "./components/footer";
 
-const variants = {
-  hidden: { opacity: 0, x: -200, y: 0 },
-  enter: { opacity: 1, x: 0, y: 0 },
-  exit: { opacity: 0, x: 0, y: -100 },
-};
+// const variants = {
+//   hidden: { opacity: 0, x: -200, y: 0 },
+//   enter: { opacity: 1, x: 0, y: 0 },
+//   exit: { opacity: 0, x: 0, y: -100 },
+// };
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 
-// export const metadata: Metadata = {
-//   title: "TCPC",
-//   description: "Tejgaon College Programming Club",
-// };
+export const metadata: Metadata = {
+  title: "TCPC",
+  description: "Tejgaon College Programming Club",
+};
 
 export default function RootLayout({
   children,
@@ -30,7 +29,7 @@ export default function RootLayout({
       <body className={`${poppins.className} bg-background h-full `}>
         <Navigation />
         {/* {children} */}
-        <motion.main
+        {/* <motion.main
           initial="hidden"
           animate="enter"
           exit="exit"
@@ -38,8 +37,8 @@ export default function RootLayout({
           transition={{ type: "linear" }}
           className="w-full pt-10 px-8 h-full  text-slate-300"
         >
-          {children}
-        </motion.main>
+        </motion.main> */}
+        {children}
         <Footer />
       </body>
     </html>

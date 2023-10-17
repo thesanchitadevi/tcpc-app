@@ -6,7 +6,7 @@ import MenuItem from "../../menu";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
     <>
-      <div className="sticky top-0 z-50 bg-background backdrop-filter backdrop-blur-md border-b border-slate-800 bg-opacity-30 ">
+      <div className="h-20 sticky top-0 z-10 bg-background backdrop-filter backdrop-blur-md border-b border-slate-800 bg-opacity-30 ">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />

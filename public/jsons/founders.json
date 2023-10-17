@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "",
+    "name": "Abdul Hadi",
+    "designation": "Chairman"
+  },
+  {
+    "id": 2,
+    "image": "",
+    "name": "Mokhlesur Rahman",
+    "designation": "Lecturer"
+  },
+  {
+    "id": 3,
+    "image": "",
+    "name": "Khairuzzaman",
+    "designation": "Lecturer"
+  }
+]
