@@ -1,0 +1,114 @@
+[
+  {
+    "id": 6,
+    "image": "/brad.jpeg",
+    "name": "Riyaj Uddin Eusouf",
+    "designation": "Joint Secretary",
+    "batch": "12",
+    "position": 5
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Samiul Alim",
+    "designation": "Development Secretary",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Rezaul Karim",
+    "designation": "Asst. Development Secretary",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Sanchita Devi",
+    "designation": "Asst. Development Secretary",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "SK Mashukul Islam",
+    "designation": "Event Executive",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Abrar Hossain",
+    "designation": "Asst. Event Executive",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Sanjida Afrin Tanha",
+    "designation": "Asst. Event Executive",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Arman Abid",
+    "designation": "Technical coordinator",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Shariar Sultan Fahim",
+    "designation": "Asst. Technical coordinator",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Md. Sobhan Mridha",
+    "designation": "Contest Coordinator",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Abdur Rahim Badsha",
+    "designation": "Lead Graphics",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Abdullah Al Nafiu",
+    "designation": "Media Secretary",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Riffat Ara Puspo",
+    "designation": "Treasurer",
+    "batch": "10",
+    "position": 6
+  },
+  {
+    "id": 2,
+    "image": "/brad.jpeg",
+    "name": "Lailatul Tangum Diha",
+    "designation": "Asst. Treasurer",
+    "batch": "10",
+    "position": 6
+  }
+]

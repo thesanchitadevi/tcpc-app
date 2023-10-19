@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "/brad.jpeg",
+    "name": "Md. Shakayet Hossain",
+    "designation": "President",
+    "batch": "10",
+    "position": 1
+  },
+  {
+    "id": 4,
+    "image": "/brad.jpeg",
+    "name": "Monir Hossen Mahim",
+    "designation": "Vice President(Academic)",
+    "batch": "10",
+    "position": 2
+  },
+  {
+    "id": 3,
+    "image": "/brad.jpeg",
+    "name": "Mehedi Hasan Khan",
+    "designation": "Vice President(Admin)",
+    "batch": "10",
+    "position": 3
+  },
+  {
+    "id": 5,
+    "image": "/brad.jpeg",
+    "name": "Md. Mizanur Rahman",
+    "designation": "Secretary",
+    "batch": "11",
+    "position": 4
+  }
+]

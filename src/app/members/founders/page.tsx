@@ -12,7 +12,7 @@ interface Founders {
   //   founders: any;
 }
 const fetchData = async (): Promise<Founders[]> => {
-  const response = await axios.get("/jsons/founders.json");
+  const response = await axios.get("/founders/founders.json");
   return response.data as Founders[];
 };
 
