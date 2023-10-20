@@ -44,7 +44,7 @@ const Executive: React.FC = () => {
           <Image
             alt="_"
             className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-            src="/brad.jpeg"
+            src="/user.jpg"
             width={"100"}
             height={"100"}
           />
@@ -60,7 +60,7 @@ const Executive: React.FC = () => {
             <Image
               alt="_"
               className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-              src="/brad.jpeg"
+              src="/user.jpg"
               width={"100"}
               height={"100"}
             />
@@ -75,7 +75,7 @@ const Executive: React.FC = () => {
             <Image
               alt="_"
               className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-              src="/brad.jpeg"
+              src="/user.jpg"
               width={"100"}
               height={"100"}
             />
@@ -91,9 +91,9 @@ const Executive: React.FC = () => {
         {/* Secretary */}
         <div className="m-8 text-center">
           <Image
-            alt="_"
+            alt=""
             className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-            src="/brad.jpeg"
+            src="/user.jpg"
             width={"100"}
             height={"100"}
           />
@@ -115,13 +115,23 @@ const Executive: React.FC = () => {
             }) => (
               <div key={s.id}>
                 <div className="m-8 text-center">
-                  <Image
-                    alt="_"
-                    className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-                    src={s.image}
-                    width={"100"}
-                    height={"100"}
-                  />
+                  {s.image ? (
+                    <Image
+                      alt="_"
+                      className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
+                      src={s.image}
+                      width={"100"}
+                      height={"100"}
+                    />
+                  ) : (
+                    <Image
+                      alt="_"
+                      className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
+                      src="/user.jpg"
+                      width={"100"}
+                      height={"100"}
+                    />
+                  )}
                   <h2 className="text-md font-semibold leadi text-primary py-0.5 ">
                     {s.name}
                   </h2>

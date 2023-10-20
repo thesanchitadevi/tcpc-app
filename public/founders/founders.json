@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Md. Moklesur Rahman",
     "designation": "Lecturer"
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": " Md. Khayruzzaman",
     "designation": "Lecturer"
   },
   {
     "id": 3,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Saud-Al-Abedin",
     "designation": "Lecturer"
   },
   {
     "id": 4,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Md. Asaduzzaman Noor",
     "designation": "Lecturer"
   }

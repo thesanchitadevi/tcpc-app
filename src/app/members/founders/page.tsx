@@ -47,20 +47,26 @@ const Founders: React.FC = () => {
               designation: string;
             }) => (
               <div key={s.id}>
-                {s.image ? (
-                  <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
+                <div className="relative pb-56 mb-4 rounded shadow md:pb-64">
+                  {s.image ? (
                     <Image
-                      className="absolute object-cover w-full h-full rounded transition-all hover:scale-110"
+                      className="absolute object-cover w-80 h-80 rounded transition-all hover:scale-110"
                       src={s.image}
                       alt="Person"
-                      width={"80"}
-                      height={"100"}
+                      width={"50"}
+                      height={"50"}
                     />
-                  </div>
-                ) : (
-                  "____"
-                )}
-                <div className="flex flex-col sm:text-center">
+                  ) : (
+                    <Image
+                      className="absolute  w-80 h-60 rounded transition-all hover:scale-110"
+                      src="/user.jpg"
+                      alt="Person"
+                      width={"50"}
+                      height={"50"}
+                    />
+                  )}
+                </div>
+                <div className="flex flex-col items-center sm:text-center">
                   <p className="text-lg font-bold text-primary">{s.name}</p>
                   <p className="mb-5 text-sm text-gray-400">{s.designation}</p>
                   <div className="flex items-center space-x-3 sm:justify-center">

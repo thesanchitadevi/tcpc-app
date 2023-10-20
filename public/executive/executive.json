@@ -1,7 +1,7 @@
 [
   {
     "id": 6,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Riyaj Uddin Eusouf",
     "designation": "Joint Secretary",
     "batch": "12",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Samiul Alim",
     "designation": "Development Secretary",
     "batch": "10",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Rezaul Karim",
     "designation": "Asst. Development Secretary",
     "batch": "10",
@@ -25,7 +25,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Sanchita Devi",
     "designation": "Asst. Development Secretary",
     "batch": "10",
@@ -33,7 +33,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "SK Mashukul Islam",
     "designation": "Event Executive",
     "batch": "10",
@@ -41,7 +41,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Abrar Hossain",
     "designation": "Asst. Event Executive",
     "batch": "10",
@@ -49,7 +49,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Sanjida Afrin Tanha",
     "designation": "Asst. Event Executive",
     "batch": "10",
@@ -57,7 +57,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Arman Abid",
     "designation": "Technical coordinator",
     "batch": "10",
@@ -65,7 +65,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Shariar Sultan Fahim",
     "designation": "Asst. Technical coordinator",
     "batch": "10",
@@ -73,7 +73,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Md. Sobhan Mridha",
     "designation": "Contest Coordinator",
     "batch": "10",
@@ -81,7 +81,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Abdur Rahim Badsha",
     "designation": "Lead Graphics",
     "batch": "10",
@@ -89,7 +89,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Abdullah Al Nafiu",
     "designation": "Media Secretary",
     "batch": "10",
@@ -97,7 +97,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Riffat Ara Puspo",
     "designation": "Treasurer",
     "batch": "10",
@@ -105,7 +105,7 @@
   },
   {
     "id": 2,
-    "image": "/brad.jpeg",
+    "image": "",
     "name": "Lailatul Tangum Diha",
     "designation": "Asst. Treasurer",
     "batch": "10",
