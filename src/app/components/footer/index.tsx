@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <>
       <hr className=" border-gray-700" />
       <div className="container mx-auto py-10 ">
-        <div className="grid grid-cols-2 divide-x divide-slate-700  tracking-[0.17rem] ">
+        {/* <div className="grid grid-cols-2 divide-x divide-slate-700  tracking-[0.17rem] ">
           <div
             data-aos="fade-right"
             className="flex flex-col items-end mr-3 py-3 gap-2 text-xs [&>a]:text-slate-300 [&>a:hover]:text-white"
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           >
             <Link href={"#"}>Discord</Link>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-500 mt-4 md:mt-0">
           <p className="order-2 md:order-1 ">
