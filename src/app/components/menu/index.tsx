@@ -11,10 +11,10 @@ const items: MenuProps["items"] = [
     key: "2",
     label: <a href="/members/executive">Executive Members</a>,
   },
-  {
-    key: "3",
-    label: <a href="/members/formar">Former Members</a>,
-  },
+  // {
+  //   key: "3",
+  //   label: <a href="/members/formar">Former Members</a>,
+  // },
 ];
 
 const MenuItem: React.FC = () => (
