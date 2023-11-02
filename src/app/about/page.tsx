@@ -3,7 +3,6 @@ import React from "react";
 import Mission from "./mission";
 import History from "./history";
 import Events from "./events";
-import WhyJoin from "../homePage/why";
 
 const About: React.FC = () => {
   return (
