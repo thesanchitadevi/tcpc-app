@@ -3,7 +3,7 @@ import React from "react";
 const Mission: React.FC = () => {
   return (
     <>
-      <div className="grid  md:grid-cols-2 items-center gap-8 md:my-20 ">
+      <div className="grid  md:grid-cols-2 items-center gap-12 my-12 ">
         <div className="mt-12 md:mt-0">
           <img
             src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"

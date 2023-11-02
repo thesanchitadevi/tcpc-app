@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MenuItem from "../../menu";
 
 const Sidebar = ({
   isOpen,
@@ -10,7 +11,7 @@ const Sidebar = ({
   return (
     <>
       <div
-        className="sidebar-container fixed w-full h-full overflow-hidden justify-center bg-white grid pt-[120px] left-0 z-10"
+        className="sidebar-container fixed w-full h-full overflow-hidden justify-center bg-[#0d141c] grid pt-[120px] left-0 z-10"
         style={{
           opacity: `${isOpen ? "1" : "0"}`,
           top: ` ${isOpen ? "0" : "-100%"}`,
@@ -31,19 +32,29 @@ const Sidebar = ({
           </svg>
         </button>
 
-        <ul className="sidebar-nav text-center leading-relaxed text-xl text-slate-700">
+        <ul className="sidebar-nav text-center leading-relaxed text-xl text-slate-200">
           <li>
-            <Link href="/about" onClick={toggle}>
-              <p>About Us</p>
+            <Link href="/about">
+              <p>About</p>
             </Link>
           </li>
           <li>
-            <Link href="/services" onClick={toggle}>
-              <p>Services</p>
+            <button>
+              <MenuItem />
+            </button>
+          </li>
+          <li>
+            <Link href="/activities">
+              <p>Events</p>
             </Link>
           </li>
           <li>
-            <Link href="/contacts" onClick={toggle}>
+            <Link href="/achievements">
+              <p>Achievements</p>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contacts">
               <p>Contacts</p>
             </Link>
           </li>

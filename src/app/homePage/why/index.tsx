@@ -29,18 +29,16 @@ const WhyJoin: React.FC = () => {
           Why Join Tejgaon College Programming Club ?
         </h2>
 
-        <div className="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="relative mx-auto max-w-7xl grid grid-cols-1 gap-10 pt-14 md:grid-cols-3">
           {products?.map?.(
             (s: { id: number; icon: string; title: string; about: string }) => (
               <div key={s.id}>
-                <div className="rounded-xl p-6 text-center shadow-xl">
+                <div className="rounded-xl bg-[#0d141c] md:h-80 h-full p-6 text-center shadow-xl  border border-slate-500">
                   <div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-secondary shadow-lg shadow-teal-500/40">
-                    <Image src={s.icon} alt="icons" width={20} height={20} />
+                    <Image src={s.icon} alt="icons" width={25} height={25} />
                   </div>
-                  <h1 className="text-darken mb-3 text-xl font-medium lg:px-14">
-                    {s.title}
-                  </h1>
-                  <p className="px-4 text-gray-500">{s.about}</p>
+
+                  <p className="px-4 text-gray-300">{s.about}</p>
                 </div>
               </div>
             )

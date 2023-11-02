@@ -3,11 +3,16 @@ import React from "react";
 import Mission from "./mission";
 import History from "./history";
 import Events from "./events";
+import WhyJoin from "../homePage/why";
 
 const About: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-5xl md:px-0 px-5">
+      <div className="container mx-auto md:max-w-6xl md:px-0 px-5">
+        <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
+          About Us
+        </h2>
+
         <History />
         <div className="flex md:flex-wrap flex-wrap-reverse items-center justify-between -mx-4">
           <div className="w-full px-4 md:w-6/12">

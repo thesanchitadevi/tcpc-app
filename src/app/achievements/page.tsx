@@ -1,7 +1,12 @@
 import React from "react";
+import NotFound from "../components/notfound";
 
 const Achievements: React.FC = () => {
-  return <div>Achievements</div>;
+  return (
+    <>
+      <NotFound />
+    </>
+  );
 };
 
 export default Achievements;

@@ -34,11 +34,10 @@ const Executive: React.FC = () => {
 
   return (
     <>
+      <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
+        Executive Committee
+      </h2>
       <div className="container flex flex-col items-center justify-center md:p-4 mx-auto space-y-8 p-10">
-        <h1 className="text-2xl font-bold leadi text-center text-secondary py-5">
-          Executive Committee
-        </h1>
-
         {/* President */}
         <div className="m-8 text-center">
           <Image

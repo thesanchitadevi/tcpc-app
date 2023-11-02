@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
             discussions.
           </p>
         </div>
-        <div>
+        <div className="mx-auto md:max-w-6xl">
           <HomeAbout />
           <WhyJoin />
           <Stats />

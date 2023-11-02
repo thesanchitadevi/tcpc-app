@@ -28,13 +28,9 @@ const Footer: React.FC = () => {
             <span className="text-white font-medium">TCPC</span>
           </p>
           <div className="order-1 md:order-2">
-            <p className="text-sm  dark:text-gray-300">
+            <p className="text-sm  dark:text-gray-300 md:py-0 py-2">
               Developed by{" "}
-              <span className="text-gray-300">
-                <Link href="https://github.com/thesanchitadevi">
-                  Sanchita Devi
-                </Link>
-              </span>
+              <span className="text-gray-300">Development Team</span>
             </p>
           </div>
         </div>

@@ -19,7 +19,7 @@ const Touch: React.FC = () => {
               ></iframe>
             </div>
 
-            <div className="max-w-full  rounded-lg overflow-hidden text-end pt-8">
+            <div className="max-w-full  rounded-lg overflow-hidden md:text-end text-center pt-8">
               <h2 className="text-2xl font-semibold text-primary">
                 Get In Touch
               </h2>

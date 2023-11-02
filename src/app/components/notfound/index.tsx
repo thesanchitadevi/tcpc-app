@@ -12,6 +12,8 @@ const NotFound: React.FC = () => {
               src="https://www.svgrepo.com/show/426192/cogs-settings.svg"
               alt="tailwindcss maintenance"
               className="h-20 w-20"
+              width={"100"}
+              height={"10"}
             />
             <h1 className="mb-3 text-3xl font-bold text-center text-white">
               Under Maintenance

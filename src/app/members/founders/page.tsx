@@ -27,18 +27,21 @@ const Founders: React.FC = () => {
   return (
     <>
       <div className="px-4 my-20 mx-auto max-w-xl md:max-w-full  md:px-24 ">
+        <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
+          Mentors
+        </h2>
         <div className="mx-auto mb-10 text-center">
           <p className="inline-block px-3  mb-4 text-xs font-semibold tracking-wider text-secondary uppercase rounded-full bg-teal-accent-400">
             TEJGAON COLLEGE <br />
             PROGRAMMING CLUB MEMBERS
           </p>
-          <p className="text-base text-gray-500 md:text-md">
+          <p className="text-base text-gray-300 md:text-md">
             Creating a community of mentors and friends and partnering with
             companies to provide the best resources for students to explore
             computer science and software engineering.
           </p>
         </div>
-        <div className="grid gap-10 mx-auto grid-cols-2 md:grid-cols-4 ">
+        <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-4 ">
           {data?.map?.(
             (s: {
               id: number;
@@ -66,7 +69,7 @@ const Founders: React.FC = () => {
                     />
                   )}
                 </div>
-                <div className="flex flex-col items-center sm:text-center">
+                <div className="flex flex-col items-center sm:text-center py-5">
                   <p className="text-lg font-bold text-primary">{s.name}</p>
                   <p className="mb-5 text-sm text-gray-400">{s.designation}</p>
                   <div className="flex items-center space-x-3 sm:justify-center">
