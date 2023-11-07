@@ -53,7 +53,7 @@ const Founders: React.FC = () => {
                 <div className="relative mb-4 rounded shadow ">
                   {s.image ? (
                     <Image
-                      className="w-80 h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
+                      className="w-full h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
                       src={s.image}
                       alt="Person"
                       width={"50"}
@@ -62,7 +62,7 @@ const Founders: React.FC = () => {
                   ) : (
                     <div className="overflow-hidden rounded-md">
                       <Image
-                        className="w-80 h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
+                        className="w-full h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
                         src="/user.jpg"
                         alt="Person"
                         width={"50"}

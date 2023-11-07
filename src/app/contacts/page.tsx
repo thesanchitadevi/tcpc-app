@@ -4,7 +4,7 @@ import React from "react";
 const Contact: React.FC = () => {
   return (
     <>
-      <div className="container grid gap-8 px-6 py-12 mx-auto lg:grid-cols-3">
+      <div className="container grid gap-8 px-6 py-12 mx-auto md:max-w-6xl md:grid-cols-2">
         <div>
           <p className="font-medium text-secondary dark:text-blue-400">
             Contact us
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2 ">
+        <div className="grid grid-cols-1 gap-12 ">
           <div className="p-4 rounded-lg  md:p-6 ">
             <span className="inline-block p-3 text-primary rounded-lg bg-gray-800 ">
               <svg
