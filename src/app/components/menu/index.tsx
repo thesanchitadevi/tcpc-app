@@ -1,16 +1,15 @@
 import type { MenuProps } from "antd";
 import { Dropdown, Space } from "antd";
 import Iconify from "../iconify";
-import Link from "next/link";
 
 const items: MenuProps["items"] = [
   {
     key: "1",
-    label: <Link href="/members/founders">Founders</Link>,
+    label: <a href="/members/founders">Founders</a>,
   },
   {
     key: "2",
-    label: <Link href="/members/executive">Executive Members</Link>,
+    label: <a href="/members/executive">Executive Members</a>,
   },
   // {
   //   key: "3",

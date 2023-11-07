@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Logo from "./logo";
-import Link from "next/link";
 import MenuItem from "../menu";
 
 const Header = () => {
@@ -60,9 +59,9 @@ const Header = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  text-gray-300 ">
               <li>
-                <Link href="/about">
+                <a href="/about">
                   <p>About</p>
-                </Link>
+                </a>
               </li>
               <li>
                 <button>
@@ -70,19 +69,19 @@ const Header = () => {
                 </button>
               </li>
               <li>
-                <Link href="/activities">
+                <a href="/activities">
                   <p>Events</p>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/achievements">
+                <a href="/achievements">
                   <p>Achievements</p>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/contacts">
+                <a href="/contacts">
                   <p>Contacts</p>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

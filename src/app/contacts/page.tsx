@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
             </p>
           </div>
 
-          <div className="p-4 rounded-lg  md:p-6 dark:bg-gray-800">
+          <div className="p-4 rounded-lg  md:p-6 ">
             <span className="inline-block p-3 text-primary rounded-lg bg-gray-800">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
             </p>
           </div>
 
-          <div className="p-4 rounded-lg  md:p-6 dark:bg-gray-800">
+          <div className="p-4 rounded-lg  md:p-6 ">
             <span className="inline-block p-3 text-primary rounded-lg bg-gray-800">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
