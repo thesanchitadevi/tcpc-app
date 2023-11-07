@@ -50,23 +50,25 @@ const Founders: React.FC = () => {
               designation: string;
             }) => (
               <div key={s.id}>
-                <div className="relative pb-56 mb-4 rounded shadow md:pb-64">
+                <div className="relative mb-4 rounded shadow ">
                   {s.image ? (
                     <Image
-                      className="absolute object-cover w-80 h-80 rounded transition-all hover:scale-110"
+                      className="w-80 h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
                       src={s.image}
                       alt="Person"
                       width={"50"}
                       height={"50"}
                     />
                   ) : (
-                    <Image
-                      className="absolute  w-80 h-60 rounded transition-all hover:scale-110"
-                      src="/user.jpg"
-                      alt="Person"
-                      width={"50"}
-                      height={"50"}
-                    />
+                    <div className="overflow-hidden rounded-md">
+                      <Image
+                        className="w-80 h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
+                        src="/user.jpg"
+                        alt="Person"
+                        width={"50"}
+                        height={"50"}
+                      />
+                    </div>
                   )}
                 </div>
                 <div className="flex flex-col items-center sm:text-center py-5">

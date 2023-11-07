@@ -2,8 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Logo from "./logo";
 import MenuItem from "../../menu";
+import { usePathname } from "next/navigation";
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
+  const pathname = usePathname();
   return (
     <>
       <div className="h-20 sticky top-0 z-10 bg-background backdrop-filter backdrop-blur-md border-b border-slate-800 bg-opacity-30 ">
@@ -30,7 +32,10 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
 
             <ul className="hidden md:flex gap-x-6 text-slate-100 ">
               <li>
-                <Link href="/about">
+                <Link
+                  className={`link ${pathname === "/about" ? "active" : ""}`}
+                  href="/about"
+                >
                   <p>About</p>
                 </Link>
               </li>
