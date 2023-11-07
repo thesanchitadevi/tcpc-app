@@ -8,10 +8,10 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="h-20 sticky top-0 z-10 bg-background backdrop-filter backdrop-blur-md border-b border-slate-800 bg-opacity-30">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+    <nav className="w-full sticky top-0 z-10 bg-background backdrop-filter backdrop-blur-md border-b border-slate-800 bg-opacity-30">
+      <div className="justify-between px-3 mx-auto md:max-w-6xl md:items-center md:flex md:px-0">
         <div>
-          <div className="flex items-center justify-between py-2 md:py-5 md:block">
+          <div className="flex items-center justify-between py-2 md:py-2 md:block">
             <Logo />
             <div className="md:hidden">
               <button
