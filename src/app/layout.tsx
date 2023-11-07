@@ -2,9 +2,10 @@ import React from "react";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import Navigation from "./components/navigation";
+
 // import { motion } from "framer-motion";
 import Footer from "./components/footer";
+import Header from "./components/header";
 
 // const variants = {
 //   hidden: { opacity: 0, x: -200, y: 0 },
@@ -27,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} bg-background h-full `}>
-        <Navigation />
+        <Header />
         {/* {children} */}
         {/* <motion.main
           initial="hidden"
