@@ -1,19 +1,20 @@
 import type { MenuProps } from "antd";
 import { Dropdown, Space } from "antd";
 import Iconify from "../iconify";
+import Link from "next/link";
 
 const items: MenuProps["items"] = [
   {
     key: "1",
-    label: <a href="/members/founders">Founders</a>,
+    label: <Link href="/members/founders">Founders</Link>,
   },
   {
     key: "2",
-    label: <a href="/members/executive">Executive Members</a>,
+    label: <Link href="/members/executive">Executive Members</Link>,
   },
   // {
   //   key: "3",
-  //   label: <a href="/members/formar">Former Members</a>,
+  //   label: <Link href="/members/formar">Former Members</Link>,
   // },
 ];
 
@@ -22,12 +23,12 @@ const MenuItem: React.FC = () => (
     menu={{ items, selectable: true }}
     // trigger={["click"]}
   >
-    <a onClick={(e) => e.preventDefault()}>
+    <Link href="" onClick={(e) => e.preventDefault()}>
       <Space>
         Members
         <Iconify icon="iconamoon:arrow-down-2" />
       </Space>
-    </a>
+    </Link>
   </Dropdown>
 );
 

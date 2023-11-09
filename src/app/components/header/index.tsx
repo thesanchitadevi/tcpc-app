@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Logo from "./logo";
 import MenuItem from "../menu";
+import Link from "next/link";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -59,9 +60,9 @@ const Header = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  text-gray-300 ">
               <li>
-                <a href="/about">
+                <Link href="/about">
                   <p>About</p>
-                </a>
+                </Link>
               </li>
               <li>
                 <button>
@@ -69,19 +70,19 @@ const Header = () => {
                 </button>
               </li>
               <li>
-                <a href="/activities">
+                <Link href="/activities">
                   <p>Events</p>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/achievements">
+                <Link href="/achievements">
                   <p>Achievements</p>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contacts">
+                <Link href="/contacts">
                   <p>Contacts</p>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
