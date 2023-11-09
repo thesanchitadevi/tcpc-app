@@ -18,6 +18,12 @@ const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 export const metadata: Metadata = {
   title: "TCPC",
   description: "Tejgaon College Programming Club",
+  icons: {
+    icon: {
+      url: "/favicon.ico",
+      sizes: "96X96",
+    },
+  },
 };
 
 export default function RootLayout({
