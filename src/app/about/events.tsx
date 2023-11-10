@@ -4,7 +4,7 @@ const Events: React.FC = () => {
   return (
     <>
       <div className="flex flex-wrap  items-center justify-between py-12">
-        <div className="w-full px-4 md:w-1/2">
+        <div className="w-full md:w-1/2">
           <div className="mt-10 md:mt-0">
             <span className="block mb-4 text-sm font-medium text-primary">
               Events and Activities
@@ -23,7 +23,7 @@ const Events: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="flex w-full md:px-3 px-4 md:w-1/2 flex-wrap ">
+        <div className="flex w-full  md:w-1/2 flex-wrap ">
           <div className="w-1/2 p-1 md:p-2">
             <img
               alt="Programming club"

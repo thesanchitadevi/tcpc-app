@@ -5,7 +5,7 @@ const HomeAbout: React.FC = () => {
   return (
     <>
       <div className="container flex flex-col mx-auto md:flex-row  md:my-20">
-        <div className="w-full md:w-2/4 px-5 ">
+        <div className="w-full md:w-2/4 ">
           <Image
             src="/images/hero.jpg"
             alt="Programming club"
@@ -14,8 +14,8 @@ const HomeAbout: React.FC = () => {
             className="rounded-md md:absolute md:object-cover md:object-right opacity-70  "
           />
         </div>
-        <div className="flex flex-col w-full md:w-2/4  md:py-12 p-8 md:text-end gap-4">
-          <p className="text-primary">About</p>
+        <div className="flex flex-col w-full md:w-2/4  md:py-12  md:text-end gap-4">
+          <p className="text-primary pt-5 md:pt-0">About</p>
           <h2 className="text-2xl font-semibold leadi">
             TEJGAON COLLEGE <br />
             PROGRAMMING CLUB

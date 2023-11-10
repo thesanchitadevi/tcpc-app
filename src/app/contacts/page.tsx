@@ -6,7 +6,7 @@ import Iconify from "../components/iconify";
 const Contact: React.FC = () => {
   return (
     <>
-      <div className="container grid gap-8 px-6 py-12 mx-auto md:max-w-6xl md:grid-cols-2">
+      <div className="container grid gap-8  py-12 mx-auto md:max-w-6xl md:grid-cols-2">
         <div>
           <p className="font-medium text-secondary dark:text-blue-400">
             Contact us
