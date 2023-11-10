@@ -35,7 +35,12 @@ const WhyJoin: React.FC = () => {
               <div key={s.id}>
                 <div className="rounded-xl bg-[#0d141c] md:h-80 h-full p-6 text-center shadow-xl  border border-slate-500">
                   <div className="mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full bg-secondary shadow-lg shadow-teal-500/40">
-                    <Image src={s.icon} alt="icons" width={25} height={25} />
+                    <Image
+                      src={s.icon}
+                      alt="Programming club"
+                      width={25}
+                      height={25}
+                    />
                   </div>
 
                   <p className="px-4 text-gray-300">{s.about}</p>

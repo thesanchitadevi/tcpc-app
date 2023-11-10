@@ -16,7 +16,7 @@ import Header from "./components/header";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: "TCPC",
+  title: "Programming Club | Tejgaon College",
   description: "Tejgaon College Programming Club",
   icons: {
     icon: {

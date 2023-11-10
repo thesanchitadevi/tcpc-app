@@ -25,16 +25,18 @@ const Touch: React.FC = () => {
               </h2>
 
               <div className="py-6 ">
-                <h3 className="text-lg font-medium ">Our Address</h3>
-                <p className="mt-3 text-gray-600">
+                <h3 className="text-lg font-medium text-gray-600">
+                  Our Address
+                </h3>
+                <p className="mt-3 ">
                   Tejgaon College 16 Indira Rd <br />
                   Dhaka 1215
                 </p>
               </div>
               <div className="border-t border-gray-800  py-6">
-                <h3 className="text-lg font-medium ">Contact</h3>
-                <p className="mt-3 text-gray-600">Email: info@example.com</p>
-                <p className="mt-1 text-gray-600">Phone: +1 23494 34993</p>
+                <h3 className="text-lg font-medium text-gray-600">Contact</h3>
+                <p className="mt-3 ">Email: programmingclub.tcd@gmail.com</p>
+                <p className="mt-1 ">Phone: 01869-943362</p>
               </div>
             </div>
           </div>

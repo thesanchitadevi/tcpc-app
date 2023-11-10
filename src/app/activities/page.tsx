@@ -8,7 +8,7 @@ const Activities: React.FC = () => {
           Upcoming Events
         </h2>
         <img
-          alt="gallery"
+          alt="Programming club"
           className="h-50 w-50 rounded-lg mx-auto"
           src="/event.jpg"
         />

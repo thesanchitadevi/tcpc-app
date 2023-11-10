@@ -20,23 +20,23 @@ const About: React.FC = () => {
                 <div className="md:py-3 py-4">
                   <img
                     src="https://i.ibb.co/gFb3ns6/image-1.jpg"
-                    alt=""
+                    alt="Programming club"
                     className="w-full rounded-2xl"
                   />
                 </div>
                 <div className="md:py-3 py-4">
                   <img
                     src="https://i.ibb.co/rfHFq15/image-2.jpg"
-                    alt=""
+                    alt="Programming club"
                     className="w-full rounded-2xl"
                   />
                 </div>
               </div>
               <div className="w-full md:px-3 px-4 md:w-1/2">
-                <div className="relative z-10 my-4">
+                <div className="relative -z-10 my-4">
                   <img
                     src="https://i.ibb.co/9y7nYCD/image-3.jpg"
-                    alt=""
+                    alt="Programming club"
                     className="w-full rounded-2xl"
                   />
                 </div>

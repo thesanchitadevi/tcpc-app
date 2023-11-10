@@ -24,7 +24,7 @@ const History: React.FC = () => {
           <img
             src="https://tecdn.b-cdn.net/img/new/ecommerce/horizontal/048.jpg"
             className="w-full rounded-lg shadow-lg dark:shadow-black/20"
-            alt=""
+            alt="Programming club"
           />
         </div>
       </div>

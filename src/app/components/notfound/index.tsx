@@ -10,7 +10,7 @@ const NotFound: React.FC = () => {
           <div className="flex flex-col items-center justify-center max-w-2xl">
             <Image
               src="https://www.svgrepo.com/show/426192/cogs-settings.svg"
-              alt="tailwindcss maintenance"
+              alt="Programming club"
               className="h-20 w-20"
               width={"100"}
               height={"10"}

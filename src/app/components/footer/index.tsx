@@ -25,7 +25,13 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-500 mt-4 md:mt-0">
           <p className="order-2 md:order-1 ">
             © {moment().format("yyyy")}. All rights reserved by{" "}
-            <span className="text-white font-medium">TCPC</span>
+            <Link
+              href="https://www.facebook.com/tpc.tcd"
+              target="_blank"
+              className="text-white font-medium"
+            >
+              Programming Club, Tejgaon College
+            </Link>
           </p>
           <div className="order-1 md:order-2">
             <p className="text-sm  dark:text-gray-300 md:py-0 py-2">

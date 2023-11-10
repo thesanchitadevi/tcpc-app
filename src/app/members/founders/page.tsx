@@ -55,7 +55,7 @@ const Founders: React.FC = () => {
                     <Image
                       className="w-full h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
                       src={s.image}
-                      alt="Person"
+                      alt="Programming club"
                       width={"50"}
                       height={"50"}
                     />
@@ -64,7 +64,7 @@ const Founders: React.FC = () => {
                       <Image
                         className="w-full h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
                         src="/user.jpg"
-                        alt="Person"
+                        alt="Programming club"
                         width={"50"}
                         height={"50"}
                       />

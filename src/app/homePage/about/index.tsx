@@ -8,10 +8,10 @@ const HomeAbout: React.FC = () => {
         <div className="w-full md:w-2/4 px-5 ">
           <Image
             src="/images/hero.jpg"
-            alt="Picture of the author"
+            alt="Programming club"
             width={500}
             height={500}
-            className="rounded-sm md:absolute md:object-cover md:object-right opacity-40  "
+            className="rounded-md md:absolute md:object-cover md:object-right opacity-70  "
           />
         </div>
         <div className="flex flex-col w-full md:w-2/4  md:py-12 p-8 md:text-end gap-4">

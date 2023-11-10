@@ -116,7 +116,7 @@ const Executive: React.FC = () => {
                 <div className="m-8 text-center">
                   {s.image ? (
                     <Image
-                      alt="_"
+                      alt="Programming club"
                       className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
                       src={s.image}
                       width={"100"}
@@ -124,7 +124,7 @@ const Executive: React.FC = () => {
                     />
                   ) : (
                     <Image
-                      alt="_"
+                      alt="Programming club"
                       className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
                       src="/user.jpg"
                       width={"100"}

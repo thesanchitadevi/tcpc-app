@@ -7,7 +7,7 @@ const Mission: React.FC = () => {
         <div className="mt-12 md:mt-0">
           <img
             src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
-            alt="About Us Image"
+            alt="Programming club"
             className="object-cover rounded-lg shadow-md"
           />
         </div>
