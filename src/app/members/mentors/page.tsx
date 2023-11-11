@@ -4,20 +4,20 @@ import Iconify from "../../components/iconify";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-interface Founders {
+interface Mentors {
   id: number;
   image: string;
   name: string;
   designation: string;
   //   founders: any;
 }
-const fetchData = async (): Promise<Founders[]> => {
+const fetchData = async (): Promise<Mentors[]> => {
   const response = await axios.get("/founders/founders.json");
-  return response.data as Founders[];
+  return response.data as Mentors[];
 };
 
-const Founders: React.FC = () => {
-  const [data, setData] = useState<Founders[]>([]);
+const Mentors: React.FC = () => {
+  const [data, setData] = useState<Mentors[]>([]);
 
   useEffect(() => {
     fetchData().then((data) => setData(data));
@@ -92,4 +92,4 @@ const Founders: React.FC = () => {
   );
 };
 
-export default Founders;
+export default Mentors;

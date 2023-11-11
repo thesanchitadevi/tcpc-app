@@ -70,7 +70,7 @@ const Header = () => {
                 </button>
               </li>
               <li>
-                <Link href="/activities">
+                <Link href="/events">
                   <p>Events</p>
                 </Link>
               </li>
