@@ -13,7 +13,7 @@ const Events: React.FC = () => {
 
         <div className="flex flex-col overflow-hidden rounded-md shadow-sm md:flex-row">
           <Image
-            src="/images/hero.jpg"
+            src="/events/combat_2021.jpeg"
             alt="Programming Club"
             className="h-80 "
             width="500"
