@@ -11,7 +11,7 @@ const Events: React.FC = () => {
           Featured Events
         </h2>
 
-        <div className="flex flex-col overflow-hidden rounded-md shadow-sm md:flex-row">
+        <div className="flex flex-col overflow-hidden bg-[#0c1219] shadow-slate-700 rounded-md shadow-sm md:flex-row">
           <Image
             src="/images/hero.jpg"
             alt="Programming Club"
@@ -29,8 +29,7 @@ const Events: React.FC = () => {
               occasion is for both the students and faculties of Tejgaon College
               which brings the institutions together with its celebration by
               students of different disciplines, the honorable Vice-Chancellor
-              of National University, Faculty members, and Administrative
-              officers.
+              of National University, Faculty members, and Administrative.
             </p>
           </div>
         </div>
