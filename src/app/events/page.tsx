@@ -6,7 +6,7 @@ const Events: React.FC = () => {
   return (
     <>
       <div className="px-4 my-20 mx-auto max-w-6xl md:px-0 ">
-        <Upcoming />
+        {/* <Upcoming /> */}
         <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
           Featured Events
         </h2>
