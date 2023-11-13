@@ -1,5 +1,5 @@
+"use client";
 import React from "react";
-import Upcoming from "./upcoming";
 import Image from "next/image";
 
 const Events: React.FC = () => {
