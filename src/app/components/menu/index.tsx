@@ -6,7 +6,7 @@ import Link from "next/link";
 const items: MenuProps["items"] = [
   {
     key: "1",
-    label: <Link href="/members/founders">Founders</Link>,
+    label: <Link href="/members/mentors">Mentors</Link>,
   },
   {
     key: "2",
