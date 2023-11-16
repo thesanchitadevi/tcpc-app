@@ -42,7 +42,7 @@ const Executive: React.FC = () => {
         <div className="m-8 text-center">
           <Image
             alt="_"
-            className="w-28 h-28 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+            className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
             src="/images/shakhayet_srabon.jpg"
             width={"100"}
             height={"100"}
@@ -58,7 +58,7 @@ const Executive: React.FC = () => {
           <div className="m-10 text-center md:px-10 px-0">
             <Image
               alt="_"
-              className="w-28 h-28 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
               src="/images/MehediHasanKhan.jpg"
               width={"100"}
               height={"100"}
@@ -73,7 +73,7 @@ const Executive: React.FC = () => {
           <div className="m-10 text-center md:px-10 px-0">
             <Image
               alt="_"
-              className="w-28 h-28 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
               src="/images/Md_Mahim.jpg"
               width={"100"}
               height={"100"}
@@ -91,7 +91,7 @@ const Executive: React.FC = () => {
         <div className="m-8 text-center">
           <Image
             alt=""
-            className="w-28 h-28  object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+            className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
             src="/images/mizanur.jpg"
             width={"100"}
             height={"100"}
