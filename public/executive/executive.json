@@ -1,7 +1,7 @@
 [
   {
-    "id": 6,
-    "image": "",
+    "id": 1,
+    "image": "/images/Riyaj_Udden_Eusouf.jpg",
     "name": "Riyaj Uddin Eusouf",
     "designation": "Joint Secretary",
     "batch": "12",
@@ -9,14 +9,14 @@
   },
   {
     "id": 2,
-    "image": "",
+    "image": "/images/Samiul_Alim.jpeg",
     "name": "Samiul Alim",
     "designation": "Development Secretary",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
+    "id": 3,
     "image": "",
     "name": "Rezaul Karim",
     "designation": "Asst. Development Secretary",
@@ -24,31 +24,31 @@
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 4,
+    "image": "/images/devi.jpg",
     "name": "Sanchita Devi",
     "designation": "Asst. Development Secretary",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 5,
+    "image": "/images/Mashukul_Islam.jpg",
     "name": "SK Mashukul Islam",
     "designation": "Event Executive",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 6,
+    "image": "/images/Abrar_Hossain.png",
     "name": "Abrar Hossain",
     "designation": "Asst. Event Executive",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
+    "id": 7,
     "image": "",
     "name": "Sanjida Afrin Tanha",
     "designation": "Asst. Event Executive",
@@ -56,7 +56,7 @@
     "position": 6
   },
   {
-    "id": 2,
+    "id": 8,
     "image": "",
     "name": "Arman Abid",
     "designation": "Technical coordinator",
@@ -64,48 +64,48 @@
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 9,
+    "image": "/images/ShariarFahim.jpg",
     "name": "Shariar Sultan Fahim",
     "designation": "Asst. Technical coordinator",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 10,
+    "image": "/images/Sobhan_Mridha_Tanvir.png",
     "name": "Md. Sobhan Mridha",
     "designation": "Contest Coordinator",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 11,
+    "image": "/images/Abdur_rahim_Badsha.jpg",
     "name": "Abdur Rahim Badsha",
     "designation": "Lead Graphics",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 12,
+    "image": "/images/Abdullah_Al_Nafiu.jpg",
     "name": "Abdullah Al Nafiu",
     "designation": "Media Secretary",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 13,
+    "image": "/images/Riffat_Puspo.jpg",
     "name": "Riffat Ara Puspo",
     "designation": "Treasurer",
     "batch": "10",
     "position": 6
   },
   {
-    "id": 2,
-    "image": "",
+    "id": 14,
+    "image": "/images/diha_tanjum.jpg",
     "name": "Lailatul Tangum Diha",
     "designation": "Asst. Treasurer",
     "batch": "10",
