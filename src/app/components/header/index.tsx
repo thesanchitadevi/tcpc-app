@@ -8,14 +8,14 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full sticky top-0 z-10 bg-background backdrop-filter backdrop-blur-md border-b border-slate-800 bg-opacity-30">
+    <nav className="w-full sticky top-0 z-10 bg-background backdrop-filter backdrop-blur-md border-b md:border-slate-800 border-slate-600 md:bg-opacity-30 bg-opacity-70">
       <div className="justify-between px-3 mx-auto md:max-w-6xl md:items-center md:flex md:px-0">
         <div>
           <div className="flex items-center justify-between py-2 md:py-2 md:block">
             <Logo />
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-300 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-gray-200 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -58,7 +58,7 @@ const Header = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  text-gray-300 ">
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0  text-gray-200 ">
               <li>
                 <Link href="/about">
                   <p>About</p>

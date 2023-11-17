@@ -34,14 +34,14 @@ const Executive: React.FC = () => {
 
   return (
     <>
-      <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
+      <h2 className="my-20 md:px-0 px-4 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
         Executive Committee
       </h2>
-      <div className="container flex flex-col items-center justify-center md:p-4 mx-auto space-y-4 p-10">
+      <div className="container flex flex-col items-center justify-center mx-auto">
         {/* President */}
         <div className="m-8 text-center">
           <Image
-            alt="_"
+            alt="Programming club"
             className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
             src="/images/shakhayet_srabon.jpg"
             width={"100"}
@@ -55,9 +55,9 @@ const Executive: React.FC = () => {
 
         {/*Vice President */}
         <div className="flex md:flex-row flex-col md:justify-between md:gap-5 ">
-          <div className="m-10 text-center md:px-10 px-0">
+          <div className="m-8 text-center md:px-10 px-0">
             <Image
-              alt="_"
+              alt="Programming club"
               className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
               src="/images/MehediHasanKhan.jpg"
               width={"100"}
@@ -70,9 +70,9 @@ const Executive: React.FC = () => {
               Vice President (Admin)
             </p>
           </div>
-          <div className="m-10 text-center md:px-10 px-0">
+          <div className="m-8 text-center md:px-10 px-0">
             <Image
-              alt="_"
+              alt="Programming club"
               className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
               src="/images/Md_Mahim.jpg"
               width={"100"}
@@ -90,7 +90,7 @@ const Executive: React.FC = () => {
         {/* Secretary */}
         <div className="m-8 text-center">
           <Image
-            alt=""
+            alt="Programming club"
             className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
             src="/images/mizanur.jpg"
             width={"100"}
@@ -125,7 +125,7 @@ const Executive: React.FC = () => {
                   ) : (
                     <Image
                       alt="Programming club"
-                      className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+                      className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto "
                       src="/user.jpg"
                       width={"100"}
                       height={"100"}
