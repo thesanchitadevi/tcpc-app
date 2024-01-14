@@ -40,6 +40,32 @@ const Contact: React.FC = () => {
 
           <div className="p-4 rounded-lg  md:p-6 ">
             <span className="inline-block p-3 text-primary rounded-lg bg-gray-800">
+              <Iconify icon="mi:call" className="w-5 h-5" />
+            </span>
+
+            <h2 className="mt-4 text-base font-medium text-white">Call us</h2>
+
+            <p className="mt-2 text-sm text-primary ">(+88) 01869-943362</p>
+          </div>
+
+          <div className="p-4 rounded-lg  md:p-6 ">
+            <span className="inline-block p-3 text-primary rounded-lg bg-gray-800">
+              <Iconify icon="basil:facebook-outline" className="w-5 h-5" />
+            </span>
+
+            <h2 className="mt-4 text-base font-medium text-white">Follow us</h2>
+
+            <Link
+              href="https://www.facebook.com/tpc.tcd"
+              className="mt-2 text-sm text-primary "
+              target="_blank"
+            >
+              Programming Club, Tejgaon College
+            </Link>
+          </div>
+
+          <div className="p-4 rounded-lg  md:p-6 ">
+            <span className="inline-block p-3 text-primary rounded-lg bg-gray-800">
               <Iconify icon="mingcute:location-line" className="w-5 h-5" />
             </span>
 
@@ -48,16 +74,6 @@ const Contact: React.FC = () => {
             <p className="mt-2 text-sm text-primary ">
               Tejgaon Colllege, Dhaka 1215, Dhaka Division, Bangladesh
             </p>
-          </div>
-
-          <div className="p-4 rounded-lg  md:p-6 ">
-            <span className="inline-block p-3 text-primary rounded-lg bg-gray-800">
-              <Iconify icon="mi:call" className="w-5 h-5" />
-            </span>
-
-            <h2 className="mt-4 text-base font-medium text-white">Call us</h2>
-
-            <p className="mt-2 text-sm text-primary ">01869-943362</p>
           </div>
         </div>
       </div>

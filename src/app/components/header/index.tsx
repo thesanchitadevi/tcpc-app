@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Logo from "./logo";
 import MenuItem from "../menu";
 import Link from "next/link";
+import StickyBanner from "../stickybanner";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -88,6 +89,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <StickyBanner />
     </nav>
   );
 };
