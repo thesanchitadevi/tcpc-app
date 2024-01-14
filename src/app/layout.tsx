@@ -6,6 +6,7 @@ import { Poppins } from "next/font/google";
 // import { motion } from "framer-motion";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import StickyBanner from "./components/stickybanner";
 
 // const variants = {
 //   hidden: { opacity: 0, x: -200, y: 0 },
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} bg-background h-full `}>
         <Header />
+        {/* <StickyBanner /> */}
         {/* {children} */}
         {/* <motion.main
           initial="hidden"
