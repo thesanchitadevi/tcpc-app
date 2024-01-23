@@ -44,7 +44,7 @@ const StickyBanner: React.FC = () => {
             >
               <circle cx="1" cy="1" r="1" />
             </svg>
-            Registration date from Jan 14 – Jan 23 (Extended 31 Jan)
+            Registration date from Jan 14 – Jan 23
           </p>
           <Link
             href="https://forms.gle/1wAqvCFGHNYHDTN16"
