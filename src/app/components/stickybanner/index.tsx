@@ -8,7 +8,7 @@ const StickyBanner: React.FC = () => {
   useEffect(() => {
     const today = new Date();
     const startDate = new Date(2024, 0, 14); // Month is 0-indexed
-    const endDate = new Date(2024, 0, 23);
+    const endDate = new Date(2024, 1, 1);
 
     // Show the banner if the current date is between start and end dates
     setShowBanner(today >= startDate && today <= endDate);
@@ -44,7 +44,7 @@ const StickyBanner: React.FC = () => {
             >
               <circle cx="1" cy="1" r="1" />
             </svg>
-            Registration date from Jan 14 – Jan 23
+            Registration date from Jan 14 – Jan 23 (Extended 31 Jan)
           </p>
           <Link
             href="https://forms.gle/1wAqvCFGHNYHDTN16"
