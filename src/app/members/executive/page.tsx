@@ -1,4 +1,5 @@
 "use client";
+import Iconify from "@/app/components/iconify";
 import axios from "axios";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
@@ -51,6 +52,21 @@ const Executive: React.FC = () => {
             Md. Shakayet Hossain
           </h2>
           <p className="text-gray-300 text-sm font-light">President</p>
+          {/* Social medias */}
+          <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+            <a
+              href="/"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+            >
+              <Iconify icon="la:facebook" className="w-8 h-8" />
+            </a>
+            <a
+              href="/"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+            >
+              <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+            </a>
+          </div>
         </div>
 
         {/*Vice President */}
@@ -69,6 +85,21 @@ const Executive: React.FC = () => {
             <p className="text-gray-300 text-sm font-light">
               Vice President (Admin)
             </p>
+            {/* Social medias */}
+            <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <a
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >
+                <Iconify icon="la:facebook" className="w-8 h-8" />
+              </a>
+              <a
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+              >
+                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+              </a>
+            </div>
           </div>
           <div className="m-8 text-center md:px-10 px-0">
             <Image
@@ -84,6 +115,21 @@ const Executive: React.FC = () => {
             <p className="text-gray-300 text-sm font-light">
               Vice President (Academic)
             </p>
+            {/* Social medias */}
+            <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <a
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >
+                <Iconify icon="la:facebook" className="w-8 h-8" />
+              </a>
+              <a
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+              >
+                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -100,6 +146,21 @@ const Executive: React.FC = () => {
             Md. Mizanur Rahman
           </h2>
           <p className="text-gray-300 text-sm font-light">Secretary</p>
+          {/* Social medias */}
+          <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+            <a
+              href="/"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+            >
+              <Iconify icon="la:facebook" className="w-8 h-8" />
+            </a>
+            <a
+              href="/"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+            >
+              <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+            </a>
+          </div>
         </div>
 
         {/* Executives */}
@@ -137,7 +198,24 @@ const Executive: React.FC = () => {
                   <p className="text-gray-300 text-sm font-light">
                     {s.designation}
                   </p>
-                  {/* <span className="text-gray-400 text-xs">{s.batch} Batch</span> */}
+                  {/* Social medias */}
+                  <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+                    <a
+                      href="/"
+                      className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+                    >
+                      <Iconify icon="la:facebook" className="w-8 h-8" />
+                    </a>
+                    <a
+                      href="/"
+                      className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+                    >
+                      <Iconify
+                        icon="mingcute:linkedin-line"
+                        className="w-7 h-7"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             )
