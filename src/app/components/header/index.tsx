@@ -89,7 +89,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <StickyBanner />
+      {/* <StickyBanner /> */}
     </nav>
   );
 };

@@ -28,18 +28,36 @@ const Mentors: React.FC = () => {
     <>
       <div className="px-4 my-20 mx-auto max-w-xl md:max-w-full  md:px-24 ">
         <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
-          Mentors
+          Advisors & Mentors
         </h2>
         <div className="mx-auto mb-10 text-center">
           <p className="inline-block px-3  mb-4 text-xs font-semibold tracking-wider text-secondary uppercase rounded-full bg-teal-accent-400">
             TEJGAON COLLEGE <br />
-            PROGRAMMING CLUB MEMBERS
+            PROGRAMMING CLUB MENTORS
           </p>
           <p className="text-base text-gray-300 md:text-md">
             Creating a community of mentors and friends and partnering with
             companies to provide the best resources for students to explore
             computer science and software engineering.
           </p>
+        </div>
+        <div className="mb-10">
+          <Image
+            className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
+            src="/Mentors/Professor_Harun_Or_Rashid.jpg"
+            alt="Programming club"
+            width={"50"}
+            height={"50"}
+          />
+          <div className="flex flex-col items-center sm:text-center py-5">
+            <p className="text-lg font-bold text-primary">
+              Professor Dr. Md. Harun-Or-Rashid
+            </p>
+            <p className="mb-5 text-sm text-gray-400">
+              Principle, Tejgaon College <br />
+              Advisor, Tejgaon College Programming Club
+            </p>
+          </div>
         </div>
         <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-4 ">
           {data?.map?.(
@@ -53,7 +71,7 @@ const Mentors: React.FC = () => {
                 <div className="relative mb-4 rounded shadow ">
                   {s.image ? (
                     <Image
-                      className="w-full h-50 rounded hover:scale-125 transition-all duration-500 cursor-pointer"
+                      className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
                       src={s.image}
                       alt="Programming club"
                       width={"50"}
@@ -74,18 +92,19 @@ const Mentors: React.FC = () => {
                 <div className="flex flex-col items-center sm:text-center py-5">
                   <p className="text-lg font-bold text-primary">{s.name}</p>
                   <p className="mb-5 text-sm text-gray-400">{s.designation}</p>
-                  <div className="flex items-center space-x-3 sm:justify-center">
+                  {/* <div className="flex items-center space-x-3 sm:justify-center">
                     <a
                       href="/"
                       className="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
                     >
                       <Iconify icon="prime:facebook" className="w-10 h-10" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             )
           )}
+          d
         </div>
       </div>
     </>
