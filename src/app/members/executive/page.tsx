@@ -43,7 +43,7 @@ const Executive: React.FC = () => {
           <Image
             alt="Programming club"
             className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-            src="/images/shakhayet_srabon.jpg"
+            src="/images/Shakhayet_Srabon.jpg"
             width={"100"}
             height={"100"}
           />
@@ -59,7 +59,7 @@ const Executive: React.FC = () => {
             <Image
               alt="Programming club"
               className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-              src="/images/MehediHasanKhan.jpg"
+              src="/images/Mehedi_Hasan_Khan.jpg"
               width={"100"}
               height={"100"}
             />
@@ -92,7 +92,7 @@ const Executive: React.FC = () => {
           <Image
             alt="Programming club"
             className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-            src="/images/mizanur.jpg"
+            src="/images/Md_Mizanur.jpg"
             width={"100"}
             height={"100"}
           />
