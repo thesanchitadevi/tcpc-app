@@ -12,12 +12,11 @@ const History: React.FC = () => {
             The Beginning
           </h2>
           <p className="mt-5 text-base text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
-            eros at lacus feugiat hendrerit sed ut tortor. Suspendisse et magna
-            quis elit efficitur consequat. Mauris eleifend velit a pretium
-            iaculis. Donec sagittis velit et magna euismod, vel aliquet nulla
-            malesuada. Nunc pharetra massa lectus, a fermentum arcu volutpat
-            vel.
+            On 6th February, 2019 the voyage of Tejgaon College Programming Club
+            – TCPC, had commenced. The dream was to set a platform for Tejgaon
+            College, CSE Dept. students to spread out the light of technology,
+            and that dream was seen by former members of TCPC. It started with a
+            mission and vision.
           </p>
         </div>
         <div className="mb-12 md:mb-0">
