@@ -44,7 +44,7 @@ const Executive: React.FC = () => {
           <Image
             alt="Programming club"
             className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-            src="/images/Shakhayet_Srabon.jpg"
+            src="/images/shakhayet_srabon.jpg"
             width={"100"}
             height={"100"}
           />
