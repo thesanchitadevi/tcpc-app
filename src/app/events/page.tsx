@@ -55,6 +55,7 @@ const Events: React.FC = () => {
               </div>
             )
           )}
+        </div>
       </div>
     </>
   );
