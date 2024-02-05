@@ -41,22 +41,42 @@ const Mentors: React.FC = () => {
             computer science and software engineering.
           </p>
         </div>
-        <div className="mb-10">
-          <Image
-            className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
-            src="/Mentors/Professor_Harun_Or_Rashid.jpg"
-            alt="Programming club"
-            width={"50"}
-            height={"50"}
-          />
-          <div className="flex flex-col items-center sm:text-center py-5">
-            <p className="text-lg font-bold text-primary">
-              Professor Dr. Md. Harun-Or-Rashid
-            </p>
-            <p className="mb-5 text-sm text-gray-400">
-              Principle, Tejgaon College <br />
-              Advisor, Tejgaon College Programming Club
-            </p>
+        <div>
+          <div className="mb-10">
+            <Image
+              className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
+              src="/Mentors/Professor_Harun_Or_Rashid.jpg"
+              alt="Programming club"
+              width={"50"}
+              height={"50"}
+            />
+            <div className="flex flex-col items-center sm:text-center py-5">
+              <p className="text-lg font-bold text-primary">
+                Professor Dr. Md. Harun-or-Rashid
+              </p>
+              <p className="mb-5 text-sm text-gray-400">
+                Principal, Tejgaon College <br />
+                Founnder & Chief Advisor of Programming Club, Tejgaon College
+              </p>
+            </div>
+          </div>
+          <div className="mb-10">
+            <Image
+              className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
+              src="/Mentors/Professor-Anjuman-Ara.jpg"
+              alt="Programming club"
+              width={"50"}
+              height={"50"}
+            />
+            <div className="flex flex-col items-center sm:text-center py-5">
+              <p className="text-lg font-bold text-primary">
+                Professor Anjuman Ara
+              </p>
+              <p className="mb-5 text-sm text-gray-400">
+                Vice Principal (Admin & Academic), Tejgaon College <br />
+                Advisor of Programming Club, Tejgaon College
+              </p>
+            </div>
           </div>
         </div>
         <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-4 ">

@@ -2,6 +2,7 @@
 import Iconify from "@/app/components/iconify";
 import axios from "axios";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 interface Executive {
@@ -10,7 +11,8 @@ interface Executive {
   name: string;
   designation: string;
   batch: string;
-  position: number;
+  facebook: string;
+  linkedIn: string;
 }
 const fetchData = async (): Promise<Executive[]> => {
   const response = await axios.get("/executive/executive.json");
@@ -26,8 +28,8 @@ const Executive: React.FC = () => {
   //   console.log(data);
 
   function sortMembers(data: any) {
-    return data.sort((a: any, b: any) => {
-      return a.position - b.position;
+    return data.sort((Link: any, b: any) => {
+      return Link.position - b.position;
     });
   }
   const sortedMembers = sortMembers(data);
@@ -54,18 +56,20 @@ const Executive: React.FC = () => {
           <p className="text-gray-300 text-sm font-light">President</p>
           {/* Social medias */}
           <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-            <a
-              href="/"
+            <Link
+              target="_blank"
+              href="https://www.facebook.com/srabon.shakhawat"
               className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
             >
               <Iconify icon="la:facebook" className="w-8 h-8" />
-            </a>
-            <a
-              href="/"
+            </Link>
+            <Link
+              target="_blank"
+              href="http://www.linkedin.com/in/shakhawat-srabon-96139920b"
               className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
             >
               <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -86,20 +90,20 @@ const Executive: React.FC = () => {
               Vice President (Admin)
             </p>
             {/* Social medias */}
-            <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-              <a
+            {/* <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <Link
                 href="/"
                 className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >
                 <Iconify icon="la:facebook" className="w-8 h-8" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/"
                 className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
               >
                 <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
-              </a>
-            </div>
+              </Link>
+            </div> */}
           </div>
           <div className="m-8 text-center md:px-10 px-0">
             <Image
@@ -116,20 +120,20 @@ const Executive: React.FC = () => {
               Vice President (Academic)
             </p>
             {/* Social medias */}
-            <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-              <a
+            {/* <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <Link
                 href="/"
                 className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >
                 <Iconify icon="la:facebook" className="w-8 h-8" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/"
                 className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
               >
                 <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
-              </a>
-            </div>
+              </Link>
+            </div> */}
           </div>
         </div>
 
@@ -148,18 +152,20 @@ const Executive: React.FC = () => {
           <p className="text-gray-300 text-sm font-light">Secretary</p>
           {/* Social medias */}
           <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-            <a
-              href="/"
+            <Link
+              target="_blank"
+              href="https://www.facebook.com/itsrmizanur/"
               className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
             >
               <Iconify icon="la:facebook" className="w-8 h-8" />
-            </a>
-            <a
-              href="/"
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/itsrmizanur/"
               className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
             >
               <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -172,6 +178,8 @@ const Executive: React.FC = () => {
               name: string;
               designation: string;
               batch: string;
+              facebook: string;
+              linkedIn: string;
             }) => (
               <div key={s.id}>
                 <div className="m-8 text-center">
@@ -199,23 +207,31 @@ const Executive: React.FC = () => {
                     {s.designation}
                   </p>
                   {/* Social medias */}
-                  <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-                    <a
-                      href="/"
-                      className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-                    >
-                      <Iconify icon="la:facebook" className="w-8 h-8" />
-                    </a>
-                    <a
-                      href="/"
-                      className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
-                    >
-                      <Iconify
-                        icon="mingcute:linkedin-line"
-                        className="w-7 h-7"
-                      />
-                    </a>
-                  </div>
+                  {s.facebook && s.linkedIn ? (
+                    <div>
+                      <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+                        <Link
+                          target="_blank"
+                          href={s.facebook}
+                          className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+                        >
+                          <Iconify icon="la:facebook" className="w-8 h-8" />
+                        </Link>
+                        <Link
+                          target="_blank"
+                          href={s.linkedIn}
+                          className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+                        >
+                          <Iconify
+                            icon="mingcute:linkedin-line"
+                            className="w-7 h-7"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
                 </div>
               </div>
             )
