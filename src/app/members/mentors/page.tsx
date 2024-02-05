@@ -56,7 +56,7 @@ const Mentors: React.FC = () => {
               </p>
               <p className="mb-5 text-sm text-gray-400">
                 Principal, Tejgaon College <br />
-                Founnder & Chief Advisor of Programming Club, Tejgaon College
+                Founder & Chief Advisor of Programming Club, Tejgaon College
               </p>
             </div>
           </div>
