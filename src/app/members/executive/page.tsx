@@ -1,6 +1,8 @@
 "use client";
+import Iconify from "@/app/components/iconify";
 import axios from "axios";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 interface Executive {
@@ -9,7 +11,8 @@ interface Executive {
   name: string;
   designation: string;
   batch: string;
-  position: number;
+  facebook: string;
+  linkedIn: string;
 }
 const fetchData = async (): Promise<Executive[]> => {
   const response = await axios.get("/executive/executive.json");
@@ -25,8 +28,8 @@ const Executive: React.FC = () => {
   //   console.log(data);
 
   function sortMembers(data: any) {
-    return data.sort((a: any, b: any) => {
-      return a.position - b.position;
+    return data.sort((Link: any, b: any) => {
+      return Link.position - b.position;
     });
   }
   const sortedMembers = sortMembers(data);
@@ -34,16 +37,16 @@ const Executive: React.FC = () => {
 
   return (
     <>
-      <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
+      <h2 className="my-20 md:px-0 px-4 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
         Executive Committee
       </h2>
-      <div className="container flex flex-col items-center justify-center md:p-4 mx-auto space-y-8 p-10">
+      <div className="container flex flex-col items-center justify-center mx-auto">
         {/* President */}
         <div className="m-8 text-center">
           <Image
-            alt="_"
-            className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-            src="/user.jpg"
+            alt="Programming club"
+            className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+            src="/images/shakhayet_srabon.jpg"
             width={"100"}
             height={"100"}
           />
@@ -51,15 +54,32 @@ const Executive: React.FC = () => {
             Md. Shakayet Hossain
           </h2>
           <p className="text-gray-300 text-sm font-light">President</p>
+          {/* Social medias */}
+          <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+            <Link
+              target="_blank"
+              href="https://www.facebook.com/srabon.shakhawat"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+            >
+              <Iconify icon="la:facebook" className="w-8 h-8" />
+            </Link>
+            <Link
+              target="_blank"
+              href="http://www.linkedin.com/in/shakhawat-srabon-96139920b"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+            >
+              <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+            </Link>
+          </div>
         </div>
 
         {/*Vice President */}
         <div className="flex md:flex-row flex-col md:justify-between md:gap-5 ">
-          <div className="m-10 text-center md:px-10 px-0">
+          <div className="m-8 text-center md:px-10 px-0">
             <Image
-              alt="_"
-              className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-              src="/user.jpg"
+              alt="Programming club"
+              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/images/Mehedi_Hasan_Khan.jpg"
               width={"100"}
               height={"100"}
             />
@@ -69,12 +89,27 @@ const Executive: React.FC = () => {
             <p className="text-gray-300 text-sm font-light">
               Vice President (Admin)
             </p>
+            {/* Social medias */}
+            {/* <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <Link
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >
+                <Iconify icon="la:facebook" className="w-8 h-8" />
+              </Link>
+              <Link
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+              >
+                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+              </Link>
+            </div> */}
           </div>
-          <div className="m-10 text-center md:px-10 px-0">
+          <div className="m-8 text-center md:px-10 px-0">
             <Image
-              alt="_"
-              className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-              src="/user.jpg"
+              alt="Programming club"
+              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/images/Md_Mahim.jpg"
               width={"100"}
               height={"100"}
             />
@@ -84,15 +119,30 @@ const Executive: React.FC = () => {
             <p className="text-gray-300 text-sm font-light">
               Vice President (Academic)
             </p>
+            {/* Social medias */}
+            {/* <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <Link
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >
+                <Iconify icon="la:facebook" className="w-8 h-8" />
+              </Link>
+              <Link
+                href="/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+              >
+                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+              </Link>
+            </div> */}
           </div>
         </div>
 
         {/* Secretary */}
         <div className="m-8 text-center">
           <Image
-            alt=""
-            className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
-            src="/user.jpg"
+            alt="Programming club"
+            className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+            src="/images/Md_Mizanur.jpg"
             width={"100"}
             height={"100"}
           />
@@ -100,10 +150,27 @@ const Executive: React.FC = () => {
             Md. Mizanur Rahman
           </h2>
           <p className="text-gray-300 text-sm font-light">Secretary</p>
+          {/* Social medias */}
+          <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+            <Link
+              target="_blank"
+              href="https://www.facebook.com/itsrmizanur/"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+            >
+              <Iconify icon="la:facebook" className="w-8 h-8" />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/itsrmizanur/"
+              className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+            >
+              <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+            </Link>
+          </div>
         </div>
 
         {/* Executives */}
-        <div className="grid gap-x-5 md:grid-cols-4 mt-5">
+        <div className="grid gap-x-5 md:grid-cols-5 mt-5">
           {sortedMembers?.map?.(
             (s: {
               id: number;
@@ -111,13 +178,15 @@ const Executive: React.FC = () => {
               name: string;
               designation: string;
               batch: string;
+              facebook: string;
+              linkedIn: string;
             }) => (
               <div key={s.id}>
                 <div className="m-8 text-center">
                   {s.image ? (
                     <Image
                       alt="Programming club"
-                      className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
+                      className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
                       src={s.image}
                       width={"100"}
                       height={"100"}
@@ -125,7 +194,7 @@ const Executive: React.FC = () => {
                   ) : (
                     <Image
                       alt="Programming club"
-                      className="self-center w-24 h-24 mb-4 bg-center bg-cover rounded-full mx-auto  "
+                      className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto "
                       src="/user.jpg"
                       width={"100"}
                       height={"100"}
@@ -137,7 +206,32 @@ const Executive: React.FC = () => {
                   <p className="text-gray-300 text-sm font-light">
                     {s.designation}
                   </p>
-                  {/* <span className="text-gray-400 text-xs">{s.batch} Batch</span> */}
+                  {/* Social medias */}
+                  {s.facebook && s.linkedIn ? (
+                    <div>
+                      <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+                        <Link
+                          target="_blank"
+                          href={s.facebook}
+                          className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+                        >
+                          <Iconify icon="la:facebook" className="w-8 h-8" />
+                        </Link>
+                        <Link
+                          target="_blank"
+                          href={s.linkedIn}
+                          className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+                        >
+                          <Iconify
+                            icon="mingcute:linkedin-line"
+                            className="w-7 h-7"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  ) : (
+                    <div></div>
+                  )}
                 </div>
               </div>
             )

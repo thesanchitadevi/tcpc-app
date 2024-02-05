@@ -21,14 +21,16 @@ const HomeAbout: React.FC = () => {
             PROGRAMMING CLUB
           </h2>
           <p className="mt-4 mb-8 text-sm">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected you
-            need to be sure there is not anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet.It uses a dictionary of over 200 Latin
-            words, combined with a handfulof model sentence structures, to
-            generate Lorem Ipsum which looks reasonable.
+            The journey of Tejgaon College Programming Club (TCPC) started on
+            6th February 2019 with former students of CSE Dept. and also founder
+            of the club. Realizing the key importance to adapt along with
+            upgrading technology, founding members introduced this club with its
+            mission and vision all set. The goal was to build up a strong
+            community of Tejgaon College CSE Dept. students by offering them a
+            potential platform that deals with technology and its advancement.
+            They have organized intra club events, nevertheless, among them,
+            events like Code Bash 1.0, Programming Combat brought its biggest
+            achievement and appreciation.
           </p>
         </div>
       </div>

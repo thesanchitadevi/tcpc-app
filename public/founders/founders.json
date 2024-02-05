@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "image": "",
+    "image": "/Mentors/Md_Moklesur_Rahman.jpg",
     "name": "Md. Moklesur Rahman",
-    "designation": "Lecturer"
+    "designation": "Lecturer, CSE Department"
   },
   {
     "id": 2,
-    "image": "",
+    "image": "/Mentors/Md_Khayruzzaman.jpg",
     "name": " Md. Khayruzzaman",
-    "designation": "Lecturer"
+    "designation": "Lecturer, CSE Department"
   },
   {
     "id": 3,
-    "image": "",
+    "image": "/Mentors/Saud_Al_Abedin.jpg",
     "name": "Saud-Al-Abedin",
-    "designation": "Lecturer"
+    "designation": "Lecturer, CSE Department"
   },
   {
     "id": 4,
-    "image": "",
+    "image": "/Mentors/Md_Asaduzzaman_Noor.jpg",
     "name": "Md. Asaduzzaman Noor",
-    "designation": "Lecturer"
+    "designation": "Lecturer, CSE Department"
   }
 ]

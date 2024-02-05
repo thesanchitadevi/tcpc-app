@@ -29,7 +29,6 @@ const Events: React.FC = () => {
         <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
           Featured Events
         </h2>
-
         <div>
           {data?.map?.(
             (s: {
@@ -56,7 +55,6 @@ const Events: React.FC = () => {
               </div>
             )
           )}
-        </div>
       </div>
     </>
   );
