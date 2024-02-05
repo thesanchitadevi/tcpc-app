@@ -1,24 +1,41 @@
 [
   {
     "id": 1,
-    "image": "icpc_2021.jpg",
+    "image1": "icpc_2021.jpg",
     "title": "ICPC 2021 Asia Dhaka Regional Contest held in September 2021",
     "description": "Tejgaon Colleges first-ever ICPC participating team, TC_ERROR-PROOF, achieved an impressive 86th position in the ICPC 2021 Asia Dhaka Regional Contest held in September 2021.",
     "team1": "Tanmay Kumar (team leader),Shakhawat Srabon, Md Monir Hossain Mahim"
   },
   {
     "id": 2,
-    "image": "ngpc_2022.jpg",
-    "title": "National Girls Programming Contest 2022",
-    "description": "We are excited to let you know that two of our girl’s teams participated in the National Girls Programming Contest 2023. One of our teams has earned a ranking of 41st (1st among all the National University-affiliated College teams). Another one of our teams has secured the position of 81th.",
-    "team1": "Kamrunahar Monisha (team leader),Ssanchita Devi, Shaharina Sabrin",
-    "team2": "Mohima Rahman Borsha (team leader),Kohinoor, "
+    "image1": "NGPC_2021.jpg",
+    "title": "National Girls Programming Contest 2021",
+    "description": "Not only our boys but also our girls are doing a fantastic job. For the very first time, they secured a place at NGPC 2021 and achieved the 1st position among all NU-affiliated colleges.",
+    "team1": "Kamrunahar Monisha (team leader),Lailatul Tangum Diha, Shaharina Sabrin"
   },
   {
     "id": 3,
-    "image": "icpc_2022.jpg",
+    "image1": "NGPC_2022-1.jpg",
+    "inage2": "NGPC_2022-2.jpg",
+    "title": "National Girls Programming Contest 2022",
+    "description": "We are excited to let you know that two of our girl’s teams participated in the National Girls Programming Contest 2023. One of our teams has earned a ranking of 41st (1st among all the National University-affiliated College teams). Another one of our teams has secured the position of 81th.",
+    "team1": "Kamrunahar Monisha (team leader),Sanchita Devi, Shaharina Sabrin",
+    "team2": "Mohima Rahman Borsha (team leader),Kohinoor, "
+  },
+  {
+    "id": 4,
+    "image1": "icpc_2022.jpg",
     "title": "ICPC 2022 Asia Dhaka Regional Contest",
     "description": "Tejgaon College’s participated team TC_ERROR-PROOF, in the ICPC 2022 Asia Dhaka Regional Contest held in September 2022.Ranked 54th this year among 1900+ teams from various Universities of Bangladesh.Best rank from Tejgaon College up until now",
     "team1": "Shakhawat Srabon (team leader),Tanmay Kumar, Md Monir Hossain Mahim"
+  },
+  {
+    "id": 5,
+    "image1": "ICPC_2023-1.jpg",
+    "image2": "ICPC_2023-2.jpg",
+    "title": "ICPC 2023 Asia Dhaka Regional Contest",
+    "description": "Finally, at ICPC 2023, two of our teams secured places, while some renowned universities were struggling to secure a spot. This marked a monumental moment in the history of our Programming Club. One of our teams secured the 96th position while another team secured the 165th position among 225 teams.",
+    "team1": "Shakhawat Srabon (team leader), Md Monir Hossain Mahim, Md. Sobhan Mridha",
+    "team2": "Abdullah Zayed (team Leader), Kamrunahar Monisha, Abdur Rahim Badsha"
   }
 ]
