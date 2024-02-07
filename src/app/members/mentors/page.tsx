@@ -124,7 +124,6 @@ const Mentors: React.FC = () => {
               </div>
             )
           )}
-          d
         </div>
       </div>
     </>
