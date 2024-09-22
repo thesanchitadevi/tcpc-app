@@ -42,6 +42,7 @@ const Mentors: React.FC = () => {
           </p>
         </div>
        /*
+        // new details will be added
         <div>
           <div className="mb-10">
             <Image
