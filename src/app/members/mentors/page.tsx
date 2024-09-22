@@ -41,9 +41,8 @@ const Mentors: React.FC = () => {
             computer science and software engineering.
           </p>
         </div>
-       /*
-        // new details will be added
-        <div>
+       
+       {/*  <div>
           <div className="mb-10">
             <Image
               className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
@@ -80,8 +79,8 @@ const Mentors: React.FC = () => {
               </p>
             </div>
           </div>
-        </div>
-        */
+        </div> */}
+        
         <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-4 ">
           {data?.map?.(
             (s: {
