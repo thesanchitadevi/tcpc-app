@@ -41,6 +41,7 @@ const Mentors: React.FC = () => {
             computer science and software engineering.
           </p>
         </div>
+       /*
         <div>
           <div className="mb-10">
             <Image
@@ -79,6 +80,7 @@ const Mentors: React.FC = () => {
             </div>
           </div>
         </div>
+        */
         <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-4 ">
           {data?.map?.(
             (s: {
