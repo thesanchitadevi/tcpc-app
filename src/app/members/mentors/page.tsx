@@ -1,6 +1,5 @@
 "use client";
 import axios from "axios";
-import Iconify from "../../components/iconify";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
@@ -12,7 +11,7 @@ interface Mentors {
   //   founders: any;
 }
 const fetchData = async (): Promise<Mentors[]> => {
-  const response = await axios.get("/founders/founders.json");
+  const response = await axios.get("/mentors/founders.json");
   return response.data as Mentors[];
 };
 
@@ -30,57 +29,82 @@ const Mentors: React.FC = () => {
         <h2 className="my-20 font-sans text-4xl text-center font-bold md:tracking-wide text-white  leading-none uppercase">
           Advisors & Mentors
         </h2>
-        <div className="mx-auto mb-10 text-center">
+
+        {/* Chief Advisor */}
+       <>
+       <div className="mb-10">
+              <Image
+              alt="Programming club"
+              className="w-32 h-32 mx-auto rounded-lg object-cover object-center  mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/advisors/Professor Shamima Yesmin.jpeg"
+              width={"100"}
+              height={"100"}
+              />
+            
+            <div className="flex flex-col items-center sm:text-center py-5">
+              <p className="text-lg font-bold text-primary">
+              Professor Shamima Yesmin
+              </p>
+              <p className="mb-5 text-sm text-gray-400 text-center">
+                Principal, Tejgaon College <br />
+                Chief Advisor of Programming Club, Tejgaon College
+              </p>
+            </div>
+          </div>
+       </>
+
+      {/* Advisor */}
+        <div className="flex md:w-2/3 md:mx-auto md:flex-row flex-col md:justify-between md:gap-5 ">
+          <div className="mb-10">
+            <Image
+             className="w-32 h-32 mx-auto rounded-lg object-cover object-center mx-auto hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/user.jpg"
+              alt="Programming club"
+              width={"50"}
+              height={"50"}
+            />
+            <div className="flex flex-col items-center sm:text-center py-5">
+              <p className="text-lg font-bold text-primary">
+                Professor Md. Abdul Hadi
+              </p>
+              <p className="mb-5 text-sm text-gray-400 text-center">
+                Professor & Chairman, CSE Dept, Tejgaon College <br />
+                Advisor of Programming Club, Tejgaon College
+              </p>
+            </div>
+          </div>
+          <div className="mb-10">
+            <Image
+              className="w-32 h-32 mx-auto rounded-lg object-cover object-center  mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/user.jpg"
+              alt="Programming club"
+              width={"50"}
+              height={"50"}
+            />
+            <div className="flex flex-col items-center sm:text-center py-5">
+              <p className="text-lg font-bold text-primary">
+                Professor Md. Aminul Haque
+              </p>
+              <p className="mb-5 text-sm text-gray-400 text-center">
+                Professor, Tejgaon College <br />
+                Advisor of Programming Club, Tejgaon College
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* MENTORS */}
+        <div className="mx-auto md:mb-20 mb-10 text-center">
           <p className="inline-block px-3  mb-4 text-xs font-semibold tracking-wider text-secondary uppercase rounded-full bg-teal-accent-400">
             TEJGAON COLLEGE <br />
             PROGRAMMING CLUB MENTORS
           </p>
           <p className="text-base text-gray-300 md:text-md">
-            Creating a community of mentors and friends and partnering with
-            companies to provide the best resources for students to explore
+            Creating a community of mentors and friends to provide the best resources for students to explore
             computer science and software engineering.
           </p>
         </div>
-       
-       {/*  <div>
-          <div className="mb-10">
-            <Image
-              className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
-              src="/Mentors/Professor_Harun_Or_Rashid.jpg"
-              alt="Programming club"
-              width={"50"}
-              height={"50"}
-            />
-            <div className="flex flex-col items-center sm:text-center py-5">
-              <p className="text-lg font-bold text-primary">
-                Professor Dr. Md. Harun-or-Rashid
-              </p>
-              <p className="mb-5 text-sm text-gray-400">
-                Principal, Tejgaon College <br />
-                Founder & Chief Advisor of Programming Club, Tejgaon College
-              </p>
-            </div>
-          </div>
-          <div className="mb-10">
-            <Image
-              className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
-              src="/Mentors/Professor-Anjuman-Ara.jpg"
-              alt="Programming club"
-              width={"50"}
-              height={"50"}
-            />
-            <div className="flex flex-col items-center sm:text-center py-5">
-              <p className="text-lg font-bold text-primary">
-                Professor Anjuman Ara
-              </p>
-              <p className="mb-5 text-sm text-gray-400">
-                Vice Principal (Admin & Academic), Tejgaon College <br />
-                Advisor of Programming Club, Tejgaon College
-              </p>
-            </div>
-          </div>
-        </div> */}
-        
+
         <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-4 ">
           {data?.map?.(
             (s: {
@@ -93,12 +117,13 @@ const Mentors: React.FC = () => {
                 <div className="relative mb-4 rounded shadow ">
                   {s.image ? (
                     <Image
-                      className="mx-auto  rounded-lg shadow-lg w-[150px] h-32"
-                      src={s.image}
-                      alt="Programming club"
-                      width={"50"}
-                      height={"50"}
-                    />
+                    alt="Programming club"
+                    className="w-32 h-32 mx-auto rounded-lg object-cover object-center  mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+                    src={s.image}
+                    width={"100"}
+                    height={"100"}
+                  />
+                  
                   ) : (
                     <div className="overflow-hidden rounded-md">
                       <Image
