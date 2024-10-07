@@ -28,21 +28,21 @@ const Events: React.FC = () => {
             <img
               alt="Programming club"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+              src="/clubPhotos/photo (3).JPG"
             />
           </div>
           <div className="w-1/2 p-1 md:p-2">
             <img
               alt="Programming club"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+              src="/clubPhotos/photo (2).JPG"
             />
           </div>
           <div className="w-full p-1 md:p-2">
             <img
               alt="Programming club"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              src="/clubPhotos/photo (10).JPG"
             />
           </div>
         </div>
