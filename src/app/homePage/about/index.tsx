@@ -7,7 +7,7 @@ const HomeAbout: React.FC = () => {
       <div className="container flex flex-col mx-auto md:flex-row  md:my-20">
         <div className="w-full md:w-2/4 ">
           <Image
-            src="/clubPhotos/photo (9).JPG"
+            src="/clubphotos/photo (9).JPG"
             alt="Programming club"
             width={500}
             height={500}

@@ -8,14 +8,14 @@ const Community: React.FC = () => {
           <div className="md:w-1/2">
             <div className="md:py-3 py-4">
               <img
-                src="/clubPhotos/photo (4).JPG"
+                src="/clubphotos/photo (4).JPG"
                 alt="Programming club"
                 className="w-[280px] rounded-2xl"
               />
             </div>
             <div className="md:py-3 py-4">
               <img
-                src="/clubPhotos/photo (1).JPG"
+                src="/clubphotos/photo (1).JPG"
                 alt="Programming club"
                 className="w-[280px] rounded-2xl"
               />
@@ -24,7 +24,7 @@ const Community: React.FC = () => {
           <div className="md:px-3 px-4 md:w-1/2">
             <div className="relative -z-10 my-4">
               <img
-                src="/clubPhotos/photo (7).JPG"
+                src="/clubphotos/photo (7).JPG"
                 alt="Programming club"
                 className="w-[250px] rounded-2xl"
               />
