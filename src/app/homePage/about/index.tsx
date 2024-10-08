@@ -6,8 +6,8 @@ const HomeAbout: React.FC = () => {
     <>
       <div className="container flex flex-col mx-auto md:flex-row  md:my-20">
         <div className="w-full md:w-2/4 ">
-          <Image
-            src="/clubphotos/photo (9).JPG"
+          <img
+            src="https://i.ibb.co.com/jhdY639/photo-9.jpg"
             alt="Programming club"
             width={500}
             height={500}

@@ -6,7 +6,7 @@ const Mission: React.FC = () => {
       <div className="grid  md:grid-cols-2 items-center gap-12 my-12 ">
         <div className="mt-12 md:mt-0">
           <img
-            src="/clubPhotos/photo (5).JPG"
+            src="https://i.ibb.co.com/Rgp9YJq/photo-5.jpg"
             alt="Programming club"
             className="object-cover rounded-lg shadow-md"
           />

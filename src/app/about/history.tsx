@@ -21,7 +21,7 @@ const History: React.FC = () => {
         </div>
         <div className="mb-12 md:mb-0">
           <img
-            src="/clubPhotos/photo.jpg"
+            src="https://i.ibb.co.com/7CTc2tn/photo.jpg"
             className="w-full rounded-lg shadow-lg dark:shadow-black/20"
             alt="Programming club"
           />
