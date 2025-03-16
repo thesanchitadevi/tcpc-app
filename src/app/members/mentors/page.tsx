@@ -21,7 +21,6 @@ const Mentors: React.FC = () => {
   useEffect(() => {
     fetchData().then((data) => setData(data));
   }, []);
-  //   console.log(data);
 
   return (
     <>
