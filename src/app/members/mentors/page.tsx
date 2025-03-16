@@ -106,7 +106,7 @@ const Mentors: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-4 ">
+        <div className="grid gap-10 mx-auto grid-cols-1 md:grid-cols-5 ">
           {data?.map?.(
             (s: {
               id: number;
