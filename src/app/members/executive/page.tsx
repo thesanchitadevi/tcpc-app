@@ -46,102 +46,6 @@ const Executive: React.FC = () => {
           <Image
             alt="Programming club"
             className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-            src="/executive/images/shakhayet_srabon.jpg"
-            width={"100"}
-            height={"100"}
-          />
-          <h2 className="text-lg font-semibold leadi text-primary py-0.5">
-            Md. Shakayet Hossain
-          </h2>
-          <p className="text-gray-300 text-sm font-light">President</p>
-          {/* Social medias */}
-          <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-            <Link
-              target="_blank"
-              href="https://www.facebook.com/srabon.shakhawat"
-              className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-            >
-              <Iconify icon="la:facebook" className="w-8 h-8" />
-            </Link>
-            <Link
-              target="_blank"
-              href="http://www.linkedin.com/in/shakhawat-srabon-96139920b"
-              className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
-            >
-              <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
-            </Link>
-          </div>
-        </div>
-
-        {/*Vice President */}
-        <div className="flex md:flex-row flex-col md:justify-between md:gap-5 ">
-          <div className="m-8 text-center md:px-10 px-0">
-            <Image
-              alt="Programming club"
-              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-              src="/executive/images/Mehedi_Hasan_Khan.jpg"
-              width={"100"}
-              height={"100"}
-            />
-            <h2 className="text-lg font-semibold leadi text-primary py-0.5">
-              Mehedi Hasan Khan
-            </h2>
-            <p className="text-gray-300 text-sm font-light">
-              Vice President (Admin)
-            </p>
-            {/* Social medias */}
-            {/* <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-              <Link
-                href="/"
-                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >
-                <Iconify icon="la:facebook" className="w-8 h-8" />
-              </Link>
-              <Link
-                href="/"
-                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
-              >
-                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
-              </Link>
-            </div> */}
-          </div>
-          <div className="m-8 text-center md:px-10 px-0">
-            <Image
-              alt="Programming club"
-              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-              src="/executive/images/Md_Mahim.jpg"
-              width={"100"}
-              height={"100"}
-            />
-            <h2 className="text-lg font-semibold leadi text-primary py-0.5">
-              Monir Hossen Mahim
-            </h2>
-            <p className="text-gray-300 text-sm font-light">
-              Vice President (Academic)
-            </p>
-            {/* Social medias */}
-            {/* <div className="flex items-center space-x-3 mt-2 sm:justify-center">
-              <Link
-                href="/"
-                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >
-                <Iconify icon="la:facebook" className="w-8 h-8" />
-              </Link>
-              <Link
-                href="/"
-                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
-              >
-                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
-              </Link>
-            </div> */}
-          </div>
-        </div>
-
-        {/* Secretary */}
-        <div className="m-8 text-center">
-          <Image
-            alt="Programming club"
-            className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
             src="/executive/images/Md_Mizanur.jpg"
             width={"100"}
             height={"100"}
@@ -149,7 +53,7 @@ const Executive: React.FC = () => {
           <h2 className="text-lg font-semibold leadi text-primary py-0.5">
             Md. Mizanur Rahman
           </h2>
-          <p className="text-gray-300 text-sm font-light">Secretary</p>
+          <p className="text-gray-300 text-sm font-light">President</p>
           {/* Social medias */}
           <div className="flex items-center space-x-3 mt-2 sm:justify-center">
             <Link
@@ -167,6 +71,85 @@ const Executive: React.FC = () => {
               <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
             </Link>
           </div>
+        </div>
+
+        {/*Vice President */}
+        <div className="flex md:flex-row flex-col md:justify-between md:gap-5 ">
+          <div className="m-8 text-center md:px-10 px-0">
+            <Image
+              alt="Programming club"
+              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/executive/images/Sanchita_Devi.jpg"
+              width={"100"}
+              height={"100"}
+            />
+            <h2 className="text-lg font-semibold leadi text-primary py-0.5">
+              Sanchita Devi
+            </h2>
+            <p className="text-gray-300 text-sm font-light">Vice President</p>
+            {/* Social medias */}
+            <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <Link
+                target="_blank"
+                href="https://www.facebook.com/thesanchitadevi/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >
+                <Iconify icon="la:facebook" className="w-8 h-8" />
+              </Link>
+              <Link
+                target="_blank"
+                href="https://www.linkedin.com/in/thesanchitadevi/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+              >
+                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+              </Link>
+            </div>
+          </div>
+          <div className="m-8 text-center md:px-10 px-0">
+            <Image
+              alt="Programming club"
+              className="w-28 h-28 bg-white my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/executive/images/Tanvir_Mridha.png"
+              width={"100"}
+              height={"100"}
+            />
+            <h2 className="text-lg font-semibold leadi text-primary py-0.5">
+              MD. SOBHAN MRIDHA
+            </h2>
+            <p className="text-gray-300 text-sm font-light">Secretary</p>
+            {/* Social medias */}
+            <div className="flex items-center space-x-3 mt-2 sm:justify-center">
+              <Link
+                target="_blank"
+                href="https://www.facebook.com/tanvir.mridha.56481/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >
+                <Iconify icon="la:facebook" className="w-8 h-8" />
+              </Link>
+              <Link
+                target="_blank"
+                href="https://www.linkedin.com/in/sobhanmridha/"
+                className="text-gray-600 transition-colors duration-300 hover:text-blue-100"
+              >
+                <Iconify icon="mingcute:linkedin-line" className="w-7 h-7" />
+              </Link>
+            </div>
+          </div>
+          {/* <div className="m-8 text-center md:px-10 px-0">
+            <Image
+              alt="Programming club"
+              className="w-28 h-28 my-4 object-cover object-center  rounded-full mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+              src=""
+              width={"100"}
+              height={"100"}
+            />
+            <h2 className="text-lg font-semibold leadi text-primary py-0.5">
+              null
+            </h2>
+            <p className="text-gray-300 text-sm font-light">
+              Vice President (Academic)
+            </p>
+          </div> */}
         </div>
 
         {/* Executives */}
