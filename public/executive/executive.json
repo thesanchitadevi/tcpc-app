@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "image": "/executive/images/Riyaj_Udden_Eusouf.jpg",
+    "name": "Riyaj Uddin Eusouf",
+    "designation": "Joint Secretary",
+    "batch": "12",
+    "facebook": "https://www.facebook.com/riyajuddeneusouf",
+    "linkedIn": "http://www.linkedin.com/in/md-riyaj-uddin-eusouf-7780042a0"
+  },
+  {
+    "id": 2,
+    "image": "/executive/images/Samiul_Alim.jpeg",
+    "name": "Samiul Alim",
+    "designation": "Development Secretary",
+    "batch": "10",
+    "facebook": "https://facebook.com/me.samiulalim",
+    "linkedIn": "https://bd.linkedin.com/in/itssamiulalim"
+  },
+  {
+    "id": 3,
+    "image": "/executive/images/Rezaul_Karim.jpg",
+    "name": "Rezaul Karim",
+    "designation": "Asst. Development Secretary",
+    "batch": "10",
+    "facebook": "",
+    "linkedIn": ""
+  },
+  {
+    "id": 4,
+    "image": "/executive/images/Sanchita_Devi.jpg",
+    "name": "Sanchita Devi",
+    "designation": "Asst. Development Secretary",
+    "batch": "10",
+    "facebook": "https://www.facebook.com/thesanchitadevi/",
+    "linkedIn": "https://www.linkedin.com/in/thesanchitadevi/"
+  },
+  {
+    "id": 5,
+    "image": "/executive/images/Mashukul_Islam.jpg",
+    "name": "SK Mashukul Islam",
+    "designation": "Event Executive",
+    "batch": "10",
+    "facebook": "",
+    "linkedIn": ""
+  },
+  {
+    "id": 6,
+    "image": "/executive/images/Abrar_Hossain.png",
+    "name": "Abrar Hossain",
+    "designation": "Asst. Event Executive",
+    "batch": "10",
+    "facebook": "",
+    "linkedIn": ""
+  },
+  {
+    "id": 7,
+    "image": "/executive/images/Sanjida_Afrin_Tanha.jpg",
+    "name": "Sanjida Afrin Tanha",
+    "designation": "Asst. Event Executive",
+    "batch": "10",
+    "facebook": "",
+    "linkedIn": ""
+  },
+  {
+    "id": 8,
+    "image": "/executive/images/Arman_Abid.png",
+    "name": "Arman Abid",
+    "designation": "Technical coordinator",
+    "batch": "10",
+    "facebook": "",
+    "linkedIn": ""
+  },
+  {
+    "id": 9,
+    "image": "/executive/images/Shariar_Sultan_Fahim.jpg",
+    "name": "Shariar Sultan Fahim",
+    "designation": "Asst. Technical coordinator",
+    "batch": "10",
+    "facebook": "https://www.facebook.com/shariarsfahim",
+    "linkedIn": "https://www.linkedin.com/in/shariarsultan/"
+  },
+  {
+    "id": 10,
+    "image": "/executive/images/Tanvir_Mridha.jpg",
+    "name": "Md. Sobhan Mridha",
+    "designation": "Contest Coordinator",
+    "batch": "10",
+    "facebook": "https://www.facebook.com/tanvir.mridha.56481",
+    "linkedIn": "https://www.linkedin.com/in/md-sobhan-mridha-6966052b1/"
+  },
+  {
+    "id": 11,
+    "image": "/executive/images/Abdur_rahim_Badsha.jpg",
+    "name": "Abdur Rahim Badsha",
+    "designation": "Lead Graphics",
+    "batch": "10",
+    "facebook": "https://www.facebook.com/mdabdurahimbadsa",
+    "linkedIn": "http://www.linkedin.com/in/md-abdur-rahim-badsha-661264216"
+  },
+  {
+    "id": 12,
+    "image": "/executive/images/Abdullah_Al_Nafiu.jpg",
+    "name": "Abdullah Al Nafiu",
+    "designation": "Media Secretary",
+    "batch": "10",
+    "facebook": "https://www.facebook.com/abdullaal.nafiu/",
+    "linkedIn": "https://www.linkedin.com/in/aanafiu/"
+  },
+  {
+    "id": 13,
+    "image": "/executive/images/Riffat_Puspo.jpg",
+    "name": "Riffat Ara Puspo",
+    "designation": "Treasurer",
+    "batch": "10",
+    "facebook": "",
+    "linkedIn": ""
+  },
+  {
+    "id": 14,
+    "image": "/executive/images/Diha_Tanjum.jpg",
+    "name": "Lailatul Tangum Diha",
+    "designation": "Asst. Treasurer",
+    "batch": "10",
+    "facebook": "",
+    "linkedIn": ""
+  }
+]

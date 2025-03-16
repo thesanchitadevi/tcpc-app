@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "icon": "/icon2.svg",
+    "about": "To build skills in various sectors including Content Writing, Photojournalism, Video Editing, Event Organizing, Volunteering, Development, UI/UX Design, and Graphic Design."
+  },
+  {
+    "id": 2,
+    "icon": "/icon2.svg",
+    "about": "To connect with a community of senior, junior, alumni, and respected teachers. Build harmony and get ideas about the demanding skills of the current and future professional domain."
+  },
+  {
+    "id": 3,
+    "icon": "/icon2.svg",
+    "about": "To organize events national events such as Computer Science Fest, Intra Competitive Programming Contest and participate in regularly organized workshops and seminars for TCPC members."
+  }
+]
