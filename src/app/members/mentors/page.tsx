@@ -31,19 +31,19 @@ const Mentors: React.FC = () => {
         </h2>
 
         {/* Chief Advisor */}
-       <>
-       <div className="mb-10">
-              <Image
+        <>
+          <div className="mb-10">
+            <Image
               alt="Programming club"
               className="w-32 h-32 mx-auto rounded-lg object-cover object-center  mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
               src="/advisors/Professor Shamima Yesmin.jpeg"
               width={"100"}
               height={"100"}
-              />
-            
+            />
+
             <div className="flex flex-col items-center sm:text-center py-5">
               <p className="text-lg font-bold text-primary">
-              Professor Shamima Yesmin
+                Professor Shamima Yesmin
               </p>
               <p className="mb-5 text-sm text-gray-400 text-center">
                 Principal, Tejgaon College <br />
@@ -51,28 +51,10 @@ const Mentors: React.FC = () => {
               </p>
             </div>
           </div>
-       </>
+        </>
 
-      {/* Advisor */}
+        {/* Advisor */}
         <div className="flex md:w-2/3 md:mx-auto md:flex-row flex-col md:justify-between md:gap-5 ">
-          <div className="mb-10">
-            <Image
-             className="w-32 h-32 mx-auto rounded-lg object-cover object-center mx-auto hover:scale-105 transition-all duration-500 cursor-pointer"
-              src="/user.jpg"
-              alt="Programming club"
-              width={"50"}
-              height={"50"}
-            />
-            <div className="flex flex-col items-center sm:text-center py-5">
-              <p className="text-lg font-bold text-primary">
-                Professor Md. Abdul Hadi
-              </p>
-              <p className="mb-5 text-sm text-gray-400 text-center">
-                Professor & Chairman, CSE Dept, Tejgaon College <br />
-                Advisor of Programming Club, Tejgaon College
-              </p>
-            </div>
-          </div>
           <div className="mb-10">
             <Image
               className="w-32 h-32 mx-auto rounded-lg object-cover object-center  mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
@@ -86,7 +68,25 @@ const Mentors: React.FC = () => {
                 Professor Md. Aminul Haque
               </p>
               <p className="mb-5 text-sm text-gray-400 text-center">
-                Professor, Tejgaon College <br />
+                Professor & Chairman, CSE Dept, Tejgaon College <br />
+                Advisor of Programming Club, Tejgaon College
+              </p>
+            </div>
+          </div>
+          <div className="mb-10">
+            <Image
+              className="w-32 h-32 mx-auto rounded-lg object-cover object-center mx-auto hover:scale-105 transition-all duration-500 cursor-pointer"
+              src="/user.jpg"
+              alt="Programming club"
+              width={"50"}
+              height={"50"}
+            />
+            <div className="flex flex-col items-center sm:text-center py-5">
+              <p className="text-lg font-bold text-primary">
+                Professor Md. Abdul Hadi
+              </p>
+              <p className="mb-5 text-sm text-gray-400 text-center">
+                Professor, CSE Dept, Tejgaon College <br />
                 Advisor of Programming Club, Tejgaon College
               </p>
             </div>
@@ -100,8 +100,9 @@ const Mentors: React.FC = () => {
             PROGRAMMING CLUB MENTORS
           </p>
           <p className="text-base text-gray-300 md:text-md">
-            Creating a community of mentors and friends to provide the best resources for students to explore
-            computer science and software engineering.
+            Creating a community of mentors and friends to provide the best
+            resources for students to explore computer science and software
+            engineering.
           </p>
         </div>
 
@@ -117,13 +118,12 @@ const Mentors: React.FC = () => {
                 <div className="relative mb-4 rounded shadow ">
                   {s.image ? (
                     <Image
-                    alt="Programming club"
-                    className="w-32 h-32 mx-auto rounded-lg object-cover object-center  mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
-                    src={s.image}
-                    width={"100"}
-                    height={"100"}
-                  />
-                  
+                      alt="Programming club"
+                      className="w-32 h-32 mx-auto rounded-lg object-cover object-center  mx-auto  hover:scale-105 transition-all duration-500 cursor-pointer"
+                      src={s.image}
+                      width={"100"}
+                      height={"100"}
+                    />
                   ) : (
                     <div className="overflow-hidden rounded-md">
                       <Image
