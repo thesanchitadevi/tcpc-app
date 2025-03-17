@@ -105,6 +105,8 @@ const Executive: React.FC = () => {
               </Link>
             </div>
           </div>
+
+          {/* Secretary */}
           <div className="m-8 text-center md:px-10 px-0">
             <Image
               alt="Programming club"
