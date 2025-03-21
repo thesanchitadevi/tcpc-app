@@ -55,7 +55,7 @@ const Events: React.FC = () => {
                 </div>
                 <div className="flex flex-col justify-center flex-1">
                   <h3 className="text-2xl md:text-3xl font-bold text-primary">{s.title}</h3>
-                  <p className="text-sm text-primary">{s.date}</p>
+                  <p className="text-sm text-primary pt-2"><span className="text-lg font-bold">Event date:</span> {s.date}</p>
                   <p className="mt-6 text-gray-200">{s.details}</p>
                 </div>
               </div>
