@@ -3,6 +3,14 @@
     "id": 1,
     "image": "/events/combat_2021.jpeg",
     "title": "Programming Combat 2021",
+    "date": "",
     "details": "Programming Combat is one of the biggest and most awaited events organized successfully by Tejgaon College Programming Club. This occasion is for both the students and faculties of Tejgaon College which brings the institutions together with its celebration by students of different disciplines, the honorable Vice-Chancellor of National University, Faculty members, and Administrative officers."
+  },
+  {
+    "id": 2,
+    "image": "/events/cse_fest_2024.JPG",
+    "title": "CSE Fest 2024",
+    "date": "10th & 11th December 2024",
+    "details": "CSE Fest 2024 is the ultimate gathering for tech enthusiasts, bringing together students, faculty, and industry experts for two days of innovation, competition, and fun. Organized by the Tejgaon College Programming Club, this fest offers a platform to showcase coding skills, creativity, and strategic thinking. From intense programming battles to creative design challenges, and mind-bending quizzes to thrilling gaming competitions, there's something for everyone. With esteemed faculty members and special guests in attendance, this event is more than just a fest-it's a celebration of knowledge, talent, and community."
   }
 ]

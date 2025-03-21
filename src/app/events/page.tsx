@@ -7,6 +7,7 @@ interface Events {
   id: number;
   image: string;
   title: string;
+  date: string;
   details: string;
   //   events: any;
 }
@@ -34,23 +35,28 @@ const Events: React.FC = () => {
             (s: {
               id: number;
               image: string;
+              date: string;
               title: string;
               details: string;
-            }) => (
+            }, index) => (
               <div
                 key={s.id}
-                className="flex flex-col overflow-hidden rounded-md shadow-sm md:flex-row"
+                className={`flex flex-col gap-10 lg:mb-16 mb-8 overflow-hidden rounded-md shadow-sm lg:flex-row justify-center items-center lg:items-start md:px-10 px-5 ${index % 2 !== 0 ? "lg:flex-row-reverse" : ""
+                  }`}
               >
-                <Image
-                  src={s.image}
-                  alt="Programming Club"
-                  className="h-80 "
-                  width="500"
-                  height="150"
-                />
-                <div className="flex flex-col justify-center flex-1 p-6 ">
-                  <h3 className="text-3xl font-bold text-primary">{s.title}</h3>
-                  <p className="my-6 text-gray-200">{s.details}</p>
+                <div className="overflow-hidden rounded-lg">
+                  <Image
+                    src={s.image}
+                    alt="Programming Club"
+                    className="h-80 transition duration-500 ease-in-out hover:scale-110 rounded-lg cursor-pointer"
+                    width="500"
+                    height="150"
+                  />
+                </div>
+                <div className="flex flex-col justify-center flex-1">
+                  <h3 className="text-2xl md:text-3xl font-bold text-primary">{s.title}</h3>
+                  <p className="text-sm text-primary">{s.date}</p>
+                  <p className="mt-6 text-gray-200">{s.details}</p>
                 </div>
               </div>
             )
